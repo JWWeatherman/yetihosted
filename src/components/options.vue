@@ -9,7 +9,7 @@
       </form>
       <form action="" method="post" class="mb-5">
         <input style="display: none;" name="option" value="end">
-        <input v-on:click="clicktwo" class="btn btn-primary" type="submit" id="next" value="I am reading this on my ONLINE laptop">
+        <input v-on:click="clicktwo" class="btn btn-primary" type="submit" id="next" value="I am reading this on my ONLINE laptop with Ubuntu freshly installed">
       </form>
     </div>
 </template>
