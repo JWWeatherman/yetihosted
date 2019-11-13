@@ -28,7 +28,7 @@
       <ul>
         <li>The source code for the website that covers the first few steps can be found <a href="https://github.com/JWWeatherman/yetihosted">here</a>.</li>
         <li>The source code for the code that is downloaded to the online and offline laptops can be found <a href="https://github.com/JWWeatherman/yeticold">here</a>.</li>
-      <ul>
+      </ul>
       <input v-on:click="click" style="margin-bottom:50px;" class="btn btn-primary" type="submit" id="next" value="Next">
     </div>
 </template>
