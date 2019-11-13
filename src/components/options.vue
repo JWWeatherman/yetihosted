@@ -11,6 +11,10 @@
         <input style="display: none;" name="option" value="end">
         <input v-on:click="clicktwo" class="btn btn-primary" type="submit" id="next" value="I am reading this on my ONLINE laptop with Ubuntu freshly installed">
       </form>
+      <form action="" method="post" class="mb-5">
+        <input style="display: none;" name="option" value="end">
+        <input v-on:click="clickthree" class="btn btn-primary" type="submit" id="next" value="I am recovering my cold storage wallet">
+      </form>
     </div>
 </template>
 
@@ -24,6 +28,9 @@ export default {
     },
     clicktwo () {
       this.$router.push({path: '/step5'})
+    },
+    clickthree () {
+      this.$router.push({path: '/step52'})
     }
   },
   computed: {

@@ -6,6 +6,8 @@ import Step3 from '@/components/step3'
 import Step4 from '@/components/step4'
 import Step5 from '@/components/step5'
 import Step6 from '@/components/step6'
+import Step52 from '@/components/step52'
+import Step62 from '@/components/step62'
 import Options from '@/components/options'
 import Overview from '@/components/overview'
 
@@ -54,6 +56,16 @@ export default new Router({
       path: '/step6',
       name: 'Step6',
       component: Step6
+    },
+    {
+      path: '/step52',
+      name: 'Step52',
+      component: Step52
+    },
+    {
+      path: '/step62',
+      name: 'Step62',
+      component: Step62
     },
     {
       path: '/options',
