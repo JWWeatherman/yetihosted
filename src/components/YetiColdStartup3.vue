@@ -1,7 +1,7 @@
 <template>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 3: Switch to your ONLINE laptop</h2>
-      <div>On your ONLINE laptop go to yeticold.com/online to continue to Step 5.</div>
+      <div>On your ONLINE laptop go to yeticold.com/#/Cold/online to continue to Step 5.</div>
     </div>
 </template>
 

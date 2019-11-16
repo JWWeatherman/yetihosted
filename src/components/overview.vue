@@ -22,10 +22,6 @@
             <input v-on:click="Hot" style="margin-bottom:50px;" class="btn btn-danger btn-large" type="submit" id="next" value="Learn more">
           </p>
       </div>
-      <form action="" method="post">
-        <input style="display: none;" name="option" value="End">
-        <input class="btn btn-primary" type="submit" id="next" value="Next">
-      </form>
       <p>
        <p style="color:light-gray;">For more details and the source code click <a href="">here</a> for the github repo</p>
     </div>

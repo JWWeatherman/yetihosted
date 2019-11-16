@@ -59,6 +59,10 @@ export default new Router({
       path: '/Cold/step6',
       name: 'YetiColdRegStartup6',
       component: YetiColdRegStartup6
+    },
+    {
+      path: '/Cold/online',
+      redirect: '/Cold/step4'
     }
   ]
 })
