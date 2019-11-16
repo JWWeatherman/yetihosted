@@ -1,6 +1,6 @@
 <template>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 5: CHOOSE MODE RECOVERY OR REG</h2>
+      <h2 style="margin-bottom:50px;">Step 5: Choose Setup or Recovery</h2>
       <div class="hero-unit">
           <h1>Setup Yeti Cold Storage</h1>
           <p>Select this option if you want to create a new place to store bitcoin.</p>
