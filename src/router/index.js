@@ -1,15 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Step1 from '@/components/step1'
-import Step2 from '@/components/step2'
-import Step3 from '@/components/step3'
-import Step4 from '@/components/step4'
-import Step5 from '@/components/step5'
-import Step6 from '@/components/step6'
-import Step52 from '@/components/step52'
-import Step62 from '@/components/step62'
-import Options from '@/components/options'
-import Overview from '@/components/overview'
+import YetiColdStartup1 from '@/components/YetiColdStartup1'
+import YetiColdStartup2 from '@/components/YetiColdStartup2'
+import YetiColdStartup3 from '@/components/YetiColdStartup3'
+import YetiColdStartup4 from '@/components/YetiColdStartup4'
+import YetiColdStartup5 from '@/components/YetiColdStartup5'
+import YetiColdRegStartup6 from '@/components/YetiColdRegStartup6'
+import YetiColdRecoveryStartup6 from '@/components/YetiColdRecoveryStartup6'
+import Overview from '@/components/Overview'
 
 import BootstrapVue from 'bootstrap-vue'
 import $store from '../store/store'
@@ -23,59 +21,44 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/step1',
-      name: 'Step1',
-      component: Step1
-    },
-    {
-      path: '/step2',
-      name: 'Step2',
-      component: Step2
-    },
-    {
-      path: '/step3',
-      name: 'Step3',
-      component: Step3
-    },
-    {
-      path: '/step3',
-      name: 'Step3',
-      component: Step3
-    },
-    {
-      path: '/step4',
-      name: 'Step4',
-      component: Step4
-    },
-    {
-      path: '/step5',
-      name: 'Step5',
-      component: Step5
-    },
-    {
-      path: '/step6',
-      name: 'Step6',
-      component: Step6
-    },
-    {
-      path: '/step52',
-      name: 'Step52',
-      component: Step52
-    },
-    {
-      path: '/step62',
-      name: 'Step62',
-      component: Step62
-    },
-    {
-      path: '/options',
-      name: 'Options',
-      component: Options
-    },
-    {
       path: '/',
       name: 'Overview',
       component: Overview
+    },
+    {
+      path: '/Cold/step1',
+      name: 'YetiColdStartup1',
+      component: YetiColdStartup1
+    },
+    {
+      path: '/Cold/step2',
+      name: 'YetiColdStartup2',
+      component: YetiColdStartup2
+    },
+    {
+      path: '/Cold/step3',
+      name: 'YetiColdStartup3',
+      component: YetiColdStartup3
+    },
+    {
+      path: '/Cold/step4',
+      name: 'YetiColdStartup4',
+      component: YetiColdStartup4
+    },
+    {
+      path: '/Cold/step5',
+      name: 'YetiColdStartup5',
+      component: YetiColdStartup5
+    },
+    {
+      path: '/Cold/Recovery/step6',
+      name: 'YetiColdRecoveryStartup6',
+      component: YetiColdRecoveryStartup6
+    },
+    {
+      path: '/Cold/step6',
+      name: 'YetiColdRegStartup6',
+      component: YetiColdRegStartup6
     }
   ]
 })
