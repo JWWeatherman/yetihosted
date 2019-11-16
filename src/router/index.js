@@ -7,7 +7,7 @@ import YetiColdStartup4 from '@/components/YetiColdStartup4'
 import YetiColdStartup5 from '@/components/YetiColdStartup5'
 import YetiColdRegStartup6 from '@/components/YetiColdRegStartup6'
 import YetiColdRecoveryStartup6 from '@/components/YetiColdRecoveryStartup6'
-import Overview from '@/components/Overview'
+import Overview from '@/components/overview'
 
 import BootstrapVue from 'bootstrap-vue'
 import $store from '../store/store'
