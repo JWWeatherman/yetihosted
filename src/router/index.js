@@ -5,7 +5,7 @@ import YetiColdStartup2 from '@/components/YetiColdStartup2'
 import YetiColdStartup3 from '@/components/YetiColdStartup3'
 import YetiColdStartup4 from '@/components/YetiColdStartup4'
 import YetiColdStartup5 from '@/components/YetiColdStartup5'
-import YetiColdRegStartup6 from '@/components/YetiColdRegStartup6'
+import YetiColdStartup6 from '@/components/YetiColdStartup6'
 import YetiColdRecoveryStartup6 from '@/components/YetiColdRecoveryStartup6'
 import Overview from '@/components/overview'
 
@@ -59,8 +59,8 @@ export default new Router({
     },
     {
       path: '/Cold/step6',
-      name: 'YetiColdRegStartup6',
-      component: YetiColdRegStartup6
+      name: 'YetiColdStartup6',
+      component: YetiColdStartup6
     },
     {
       path: '/Hot/step4',
