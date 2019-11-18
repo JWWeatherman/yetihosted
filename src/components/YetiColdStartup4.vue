@@ -4,10 +4,10 @@
       <ol>
           <li>Click on the 9 dots in the bottom left and then click on Terminal.</li>
           <li>Select the text below this line, right click and select Copy.</li>
-          <p>sudo apt-get install git</p>
+          <code>sudo apt-get install git</code>
           <li>In the terminal window right click and select Paste and then click Enter</li>
           <li>Select the text below this line, right click and select Copy.</li>
-          <p>git clone https://github.com/jwweatherman/yeticold.git ~/yeticold</p>
+          <code>git clone https://github.com/jwweatherman/yeticold.git ~/yeticold</code>
           <li>In the terminal window right click and select Paste and then click Enter</li>
           <li>Click next to continue.</li>
       </ol>          

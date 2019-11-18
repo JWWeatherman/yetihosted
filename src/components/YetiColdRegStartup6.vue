@@ -3,7 +3,7 @@
       <h2>Step 6: Start Yeti on your ONLINE laptop.</h2>
       <ol>
           <li>Select the text below this line, right click and select Copy.</li>
-          <p>python3 ~/yeticold/scripts/YetiColdOnline.py</p>
+          <code>python3 ~/yeticold/scripts/YetiColdOnline.py</code>
           <li>Provide your laptop password and click Enter</li>
           <li>When prompted type "y" and click Enter</li>
           <li>When a new browser window is opened click "Try Again"</li>
