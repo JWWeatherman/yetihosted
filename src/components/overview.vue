@@ -32,11 +32,11 @@
 export default {
   mounted () {
     let host = window.location.host.toUpperCase()
-    if (host = 'COLD.YETICOLD.COM') {
+    if (host === 'COLD.YETICOLD.COM') {
       this.$router.push({path: '/Cold/step4'})
-    }else if (host = 'WARM.YETICOLD.COM') {
+    }else if (host === 'WARM.YETICOLD.COM') {
       this.$router.push({path: '/Warm/step4'})
-    }else if (host = 'HOT.YETICOLD.COM') {
+    }else if (host === 'HOT.YETICOLD.COM') {
       this.$router.push({path: '/Hot/step4'})
     }
   },
