@@ -45,10 +45,10 @@ export default {
       this.$router.push({path: '/Cold/step1'})
     },
     Warm () {
-      this.$router.push({path: '/Warm/step1'})
+      this.$router.push({path: '/CommingSoon'})
     },
     Hot () {
-      this.$router.push({path: '/Hot/step1'})
+      this.$router.push({path: '/CommingSoon'})
     }
   },
   computed: {
