@@ -7,7 +7,7 @@ import YetiColdStartup4 from '@/components/YetiColdStartup4'
 import YetiColdStartup5 from '@/components/YetiColdStartup5'
 import YetiColdStartup6 from '@/components/YetiColdStartup6'
 import YetiColdRecoveryStartup6 from '@/components/YetiColdRecoveryStartup6'
-import CommingSoon from '@/components/CommingSoon'
+import ComingSoon from '@/components/CommingSoon'
 import Overview from '@/components/overview'
 
 import BootstrapVue from 'bootstrap-vue'
@@ -74,9 +74,9 @@ export default new Router({
       component: YetiColdStartup4
     },
     {
-      path: '/CommingSoon',
-      name: 'CommingSoon',
-      component: CommingSoon
+      path: '/YetiComingSoon',
+      name: 'ComingSoon',
+      component: ComingSoon
     }
   ]
 })
