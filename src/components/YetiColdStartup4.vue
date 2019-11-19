@@ -2,8 +2,8 @@
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 4: Download Yeti to your ONLINE laptop</h2>
       <ol>
-          <li>Click on the 9 dots in the bottom left and then click on Terminal.</li>
-          <li>Select the text below this line, right click and select Copy.</li>
+          <li>Click on the 9 dots in the bottom left corner of your Ubuntu desktop and then click Terminal.</li>
+          <li>Click "copy" to copy the text below this line.</li>
           <div style="width:75%;" class="input-group mb-3 mt-3">
             <input v-on:click="copy1" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy1" aria-describedby="inputGroup-sizing-default" value="sudo apt-get install git">
             <div class="input-group-append">
@@ -11,7 +11,7 @@
             </div>
           </div>
           <li>In the terminal window right click and select Paste and then click Enter</li>
-          <li>Select the text below this line, right click and select Copy.</li>
+          <li>Click "copy" to copy the text below this line.</li>
           <div style="width:75%;" class="input-group mb-3 mt-3">
             <input v-on:click="copy2" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy2" aria-describedby="inputGroup-sizing-default" value="git clone https://github.com/jwweatherman/yeticold.git ~/yeticold">
             <div class="input-group-append">
