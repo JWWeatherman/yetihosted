@@ -9,9 +9,9 @@
               <span v-on:click="copy1" class="btn btn-secondary" id="basic-addon2">Copy</span>
             </div>
           </div>
-          <li>Provide your laptop password and click Enter</li>
-          <li>When prompted type "y" and click Enter</li>
-          <li>When a new browser window is opened click "Try Again"</li>
+          <li>Provide your laptop password and click Enter.</li>
+          <li>When prompted type "y" and click Enter.</li>
+          <li>When a new browser window is opened click "Try Again."</li>
           <li>Once Step 7, close this tab to continue with Step 7 in the other tab.</li>
       </ol> 
     </div>
