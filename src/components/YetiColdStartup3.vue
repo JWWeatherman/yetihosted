@@ -5,18 +5,3 @@
     </div>
 </template>
 
-<script>
-export default {
-  name: 'Step3',
-  data () {
-    return {
-      msg: 'Convert your passphrase key to a WIF private key'
-    }
-  }
-}
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>

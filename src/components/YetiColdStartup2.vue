@@ -14,25 +14,10 @@
 
 <script>
 export default {
-  mounted () {
-  },
   methods: {
     click () {
       this.$router.push({path: '/Cold/step3'})
     }
-  },
-  computed: {
-  },
-  name: 'Step2',
-  data () {
-    return {
-      msg: 'Convert your passphrase key to a WIF private key'
-    }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
