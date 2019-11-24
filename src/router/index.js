@@ -84,7 +84,7 @@ export default new Router({
       component: YetiWarmStartup3
     },
     {
-      path: '/Cold/step4',
+      path: '/Warm/step4',
       name: 'YetiWarmStartup4',
       component: YetiWarmStartup4
     },
