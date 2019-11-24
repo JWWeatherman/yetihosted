@@ -12,8 +12,6 @@ import YetiWarmStartup2 from '@/components/YetiWarmStartup2'
 import YetiWarmStartup3 from '@/components/YetiWarmStartup3'
 import YetiWarmStartup4 from '@/components/YetiWarmStartup4'
 import YetiWarmStartup5 from '@/components/YetiWarmStartup5'
-import YetiWarmStartup6 from '@/components/YetiWarmStartup6'
-import YetiWarmRecoveryStartup6 from '@/components/YetiWarmRecoveryStartup6'
 import ComingSoon from '@/components/ComingSoon'
 import Overview from '@/components/overview'
 
@@ -94,16 +92,6 @@ export default new Router({
       path: '/Warm/step5',
       name: 'YetiWarmStartup5',
       component: YetiWarmStartup5
-    },
-    {
-      path: '/Warm/Recovery/step6',
-      name: 'YetiWarmRecoveryStartup6',
-      component: YetiWarmRecoveryStartup6
-    },
-    {
-      path: '/Warm/step6',
-      name: 'YetiWarmStartup6',
-      component: YetiWarmStartup6
     },
     {
       path: '/Hot/step4',
