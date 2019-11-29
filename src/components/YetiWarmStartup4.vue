@@ -1,6 +1,6 @@
 <template>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 4: Download Yeti to your ONLINE laptop</h2>
+      <h2>Step 4: Download Yeti to your laptop</h2>
       <ol>
           <li>Click on the 9 dots in the bottom left corner of your Ubuntu desktop and then click Terminal.</li>
           <li>Click "copy" to copy the text below this line.</li>
@@ -20,7 +20,7 @@
             </div>
           </div>
           <li>In the terminal window right click and select Paste and then click Enter.</li>
-          <li>Click next to continue.</li>
+          <li>Click Next to continue.</li>
       </ol>          
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">
     </div>
