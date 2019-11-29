@@ -10,20 +10,20 @@
       </div>
       <div class="hero-unit">
           <h1>Yeti Warm Storage</h1>
-          <p>Yeti Warm Storage is for storing between $5,000 and $50,000 USD worth of bitcoin. It is a 3 of 7 HD multisig setup that requries only a single computer to setup.</p>
+          <p>Yeti Warm Storage is for storing between $5,000 and $50,000 USD worth of bitcoin. It is a 3 of 7 HD multisig setup that requires only a single computer to setup.</p>
           <p>
             <input v-on:click="Warm" style="margin-bottom:50px;" class="btn btn-warning btn-large" type="submit" id="next" value="Yeti Warm">
           </p>
       </div>
       <div class="hero-unit">
           <h1>Yeti Hot Storage</h1>
-          <p>Yeti Hot Storage is for storing under $5,000 USD worth of bitcoin. It is very easy to backup and restore and requries only a single computer to setup.</p>
+          <p>Yeti Hot Storage is for storing under $5,000 USD worth of bitcoin. It is very easy to backup and restore and requires only a single computer to setup.</p>
           <p>
             <input v-on:click="Hot" style="margin-bottom:50px;" class="btn btn-danger btn-large" type="submit" id="next" value="Yeti Hot">
           </p>
       </div>
       <p>
-       <p style="color:light-gray;">For more details and the source code click <a href="">here</a> for the github repo</p>
+       <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub repo.</p>
     </div>
       
 </template>
