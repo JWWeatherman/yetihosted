@@ -7,7 +7,7 @@
           <li>4 small thumb drives. This will cost about $10.</li>
           <li>A printer and printer paper.</li>
       </ul>
-    <input v-on:click="click" class="btn btn-primary" type="submit" id="next" value="Next">
+    <input v-on:click="click" class="btn btn-danger" type="submit" id="next" value="Next">
   </div>
 </template>
 
