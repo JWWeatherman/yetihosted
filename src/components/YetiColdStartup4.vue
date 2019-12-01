@@ -1,6 +1,6 @@
 <template>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 4: Download Yeti to your ONLINE laptop</h2>
+      <h2 style="margin-bottom:35px;">Step 4: Download Yeti to your ONLINE laptop</h2>
       <ol>
           <li>Click on the 9 dots in the bottom left corner of your Ubuntu desktop and then click Terminal.</li>
           <li>Click "copy" to copy the text below this line.</li>
