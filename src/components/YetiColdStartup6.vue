@@ -1,4 +1,4 @@
-<template>
+ <template>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 6: Start Yeti on your ONLINE laptop.</h2>
       <ol>

@@ -30,7 +30,7 @@
 export default {
   methods: {
    click () {
-      this.$router.push({path: '/Warm/step5'})
+      this.$router.push({path: '/Hot/step5'})
     },
     copy1 () {
       let copyText = document.getElementById("copy1")

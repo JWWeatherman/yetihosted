@@ -15,7 +15,7 @@
 export default {
   methods: {
     click () {
-      this.$router.push({path: '/Warm/step3'})
+      this.$router.push({path: '/Hot/step3'})
     }
   }
 }

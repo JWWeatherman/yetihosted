@@ -12,7 +12,11 @@ import YetiWarmStartup2 from '@/components/YetiWarmStartup2'
 import YetiWarmStartup3 from '@/components/YetiWarmStartup3'
 import YetiWarmStartup4 from '@/components/YetiWarmStartup4'
 import YetiWarmStartup5 from '@/components/YetiWarmStartup5'
-import ComingSoon from '@/components/ComingSoon'
+import YetiWarmStartup1 from '@/components/YetiHotStartup1'
+import YetiWarmStartup2 from '@/components/YetiHotStartup2'
+import YetiWarmStartup3 from '@/components/YetiHotStartup3'
+import YetiWarmStartup4 from '@/components/YetiHotStartup4'
+import YetiWarmStartup5 from '@/components/YetiHotStartup5'
 import Overview from '@/components/overview'
 
 import BootstrapVue from 'bootstrap-vue'
@@ -93,15 +97,30 @@ export default new Router({
       name: 'YetiWarmStartup5',
       component: YetiWarmStartup5
     },
-    {
-      path: '/Hot/step4',
-      name: 'YetiColdStartup4',
-      component: YetiColdStartup4
+     {
+      path: '/Hot/step1',
+      name: 'YetiHotStartup1',
+      component: YetiHotStartup1
     },
     {
-      path: '/YetiComingSoon',
-      name: 'ComingSoon',
-      component: ComingSoon
+      path: '/Hot/step2',
+      name: 'YetiHotStartup2',
+      component: YetiHotStartup2
+    },
+    {
+      path: '/Hot/step3',
+      name: 'YetiHotStartup3',
+      component: YetiHotStartup3
+    },
+    {
+      path: '/Hot/step4',
+      name: 'YetiHotStartup4',
+      component: YetiHotStartup4
+    },
+    {
+      path: '/Hot/step5',
+      name: 'YetiHotStartup5',
+      component: YetiHotStartup5
     }
   ]
 })
