@@ -1,6 +1,6 @@
 <template>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 6: Start Yeti on your ONLINE laptop.</h2>
+      <h2>Step 5: Start Yeti on your ONLINE laptop.</h2>
       <ol>
           <li>Select the text below this line, right click and select Copy.</li>
           <div style="width:75%;" class="input-group mb-3 mt-3">
