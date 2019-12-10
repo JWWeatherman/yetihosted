@@ -9,7 +9,7 @@
   </div>
 </template>
 <script>
-import navbar from './components/navbarwarm'
+import navbarwarm from './navbarwarm'
 export default {
   components: {
     navbarwarm

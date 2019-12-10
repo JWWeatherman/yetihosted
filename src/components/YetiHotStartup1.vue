@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import navbar from './components/navbarhot'
+import navbarhot from './navbarhot'
 export default {
   methods: {
     click () {

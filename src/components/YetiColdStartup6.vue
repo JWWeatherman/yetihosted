@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import navbar from './components/navbarcold'
+import navbarcold from './navbarcold'
 export default {
   methods: {
     copy1 () {

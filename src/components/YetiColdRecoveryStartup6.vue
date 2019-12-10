@@ -20,9 +20,8 @@
     </div>
   </div>
 </template>
-
 <script>
-import navbar from './components/navbarcold'
+import navbarcold from './navbarcold'
 export default {
   name: 'Step6',
   methods: {
