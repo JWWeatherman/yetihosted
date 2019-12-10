@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
       <h2></h2>
       <div class="hero-unit">
@@ -25,7 +27,7 @@
       <p>
        <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub repo.</p>
     </div>
-      
+  </div>
 </template>
 
 <script>
