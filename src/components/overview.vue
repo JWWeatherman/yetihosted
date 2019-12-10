@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import navbar from './navbarcold'
+import navbarcold from './navbarcold'
 export default {
   mounted () {
     let host = window.location.host.toUpperCase()
