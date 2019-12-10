@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <navbarhot></navbarhot>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 5: Start Yeti on your ONLINE laptop.</h2>
       <ol>
@@ -16,9 +18,11 @@
           <li>Once Step 6 is shown, close this tab to continue with Step 6 in the other tab.</li>
       </ol> 
     </div>
+  </div>
 </template>
 
 <script>
+import navbar from './components/navbarhot'
 export default {
   methods: {
     copy1 () {
@@ -27,6 +31,9 @@ export default {
       copyText.setSelectionRange(0, 99999)
       document.execCommand("copy")
     }
+  },
+  components: {
+    navbarhot
   }
 }
 </script>

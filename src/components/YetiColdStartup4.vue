@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
       <h2 style="margin-bottom:35px;">Step 4: Download Yeti to the Online Laptop</h2>
       <ol>
@@ -15,9 +17,11 @@
       </ol>         
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">
     </div>
+  </div>
 </template>
 
 <script>
+import navbar from './components/navbarcold'
 export default {
   methods: {
    click () {
@@ -29,6 +33,9 @@ export default {
       copyText.setSelectionRange(0, 99999)
       document.execCommand("copy")
     }
+  },
+  components: {
+    navbarcold
   }
 }
 </script>

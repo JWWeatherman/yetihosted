@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <navbarhot></navbarhot>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 4: Download Yeti to your ONLINE laptop</h2>
       <ol>
@@ -15,9 +17,11 @@
       </ol>        
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-danger" type="submit" id="next" value="Next">
     </div>
+  </div>
 </template>
 
 <script>
+import navbar from './components/navbarhot'
 export default {
   methods: {
    click () {
@@ -29,6 +33,9 @@ export default {
       copyText.setSelectionRange(0, 99999)
       document.execCommand("copy")
     }
+  },
+  components: {
+    navbarhot
   }
 }
 </script>

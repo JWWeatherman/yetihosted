@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <navbarwarm></navbarwarm>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 2: Install Ubuntu</h2>
       <p>Install Ubuntu on your laptop and then click Next.</p>
@@ -9,14 +11,19 @@
       </ul>
       <input v-on:click="click" class="btn btn-primary" type="submit" id="next" value="Next">
     </div>
+  </div>
 </template>
 
 <script>
+import navbar from './components/navbarwarm'
 export default {
   methods: {
     click () {
       this.$router.push({path: '/Warm/step3'})
     }
+  },
+  components: {
+    navbarwarm
   }
 }
 </script>

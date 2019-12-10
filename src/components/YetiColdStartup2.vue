@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 2: Install Ubuntu</h2>
       <p>Install Ubuntu on both laptops following these rules and then click <b>Next</b>.</p>
@@ -10,14 +12,19 @@
       </ul>
       <input v-on:click="click" class="btn btn-primary" type="submit" id="next" value="Next">
     </div>
+  </div>
 </template>
 
 <script>
+import navbar from './components/navbarcold'
 export default {
   methods: {
     click () {
       this.$router.push({path: '/Cold/step3'})
     }
+  },
+  components: {
+    navbarcold
   }
 }
 </script>

@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
       <h2 style="margin-bottom:50px;">Step 5: Choose Setup or Recovery</h2>
       <div class="hero-unit">
@@ -16,9 +18,11 @@
           </p>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
+import navbar from './components/navbarcold'
 export default {
   methods: {
     start () {
@@ -27,6 +31,9 @@ export default {
     recover () {
       this.$router.push({path: '/Cold/Recovery/step6'})
     }
+  },
+  components: {
+    navbarcold
   }
 }
 </script>

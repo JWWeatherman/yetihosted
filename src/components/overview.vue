@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import navbar from './components/navbarcold'
 export default {
   mounted () {
     let host = window.location.host.toUpperCase()
@@ -50,6 +51,9 @@ export default {
     Hot () {
       this.$router.push({path: '/Hot/step1'})
     }
+  },
+  components: {
+    navbarcold
   }
 }
 </script>

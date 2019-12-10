@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <navbarhot></navbarhot>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 2: Install Ubuntu</h2>
       <p>Install Ubuntu on both laptops following these rules and then click next.:</p>
@@ -9,14 +11,19 @@
       </ul>
       <input v-on:click="click" class="btn btn-danger" type="submit" id="next" value="Next">
     </div>
+  </div>
 </template>
 
 <script>
+import navbar from './components/navbarhot'
 export default {
   methods: {
     click () {
       this.$router.push({path: '/Hot/step3'})
     }
+  },
+  components: {
+    navbarhot
   }
 }
 </script>
