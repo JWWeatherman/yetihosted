@@ -7,7 +7,7 @@
           <h1>Bitcoin Core Offline</h1>
           <p>Bitcoin Core Offline is for sending bitcoin from a private key on a disconnected machine.</p>
           <p>
-            <input v-on:click="Cold" style="margin-bottom:50px;" class="btn btn-secondary btn-large" type="submit" id="next" value="Bitcoin Core Offline">
+            <input v-on:click="BCO" style="margin-bottom:50px;" class="btn btn-secondary btn-large" type="submit" id="next" value="Bitcoin Core Offline">
           </p>
       </div>
     </div>
