@@ -17,7 +17,14 @@ import YetiHotStartup2 from '@/components/YetiHotStartup2'
 import YetiHotStartup3 from '@/components/YetiHotStartup3'
 import YetiHotStartup4 from '@/components/YetiHotStartup4'
 import YetiHotStartup5 from '@/components/YetiHotStartup5'
+import BitcoinCoreOfflineStartup1 from '@/components/BitcoinCoreOfflineStartup1'
+import BitcoinCoreOfflineStartup2 from '@/components/BitcoinCoreOfflineStartup2'
+import BitcoinCoreOfflineStartup3 from '@/components/BitcoinCoreOfflineStartup3'
+import BitcoinCoreOfflineStartup4 from '@/components/BitcoinCoreOfflineStartup4'
+import BitcoinCoreOfflineStartup5 from '@/components/BitcoinCoreOfflineStartup5'
 import Overview from '@/components/overview'
+import UtilsOverview from '@/components/utilsoverview'
+
 
 import BootstrapVue from 'bootstrap-vue'
 import $store from '../store/store'
@@ -36,6 +43,11 @@ export default new Router({
       path: '/',
       name: 'Overview',
       component: Overview
+    },
+    {
+      path: '/Utils'
+      name: 'UtilsOverview',
+      component: UtilsOverview
     },
     {
       path: '/Cold/step1',
@@ -121,6 +133,31 @@ export default new Router({
       path: '/Hot/step5',
       name: 'YetiHotStartup5',
       component: YetiHotStartup5
+    },
+     {
+      path: '/BCO/step1',
+      name: 'BitcoinCoreOfflineStartup1',
+      component: BitcoinCoreOfflineStartup1
+    },
+    {
+      path: '/BCO/step2',
+      name: 'BitcoinCoreOfflineStartup2',
+      component: BitcoinCoreOfflineStartup2
+    },
+    {
+      path: '/BCO/step3',
+      name: 'BitcoinCoreOfflineStartup3',
+      component: BitcoinCoreOfflineStartup3
+    },
+    {
+      path: '/BCO/step4',
+      name: 'BitcoinCoreOfflineStartup4',
+      component: BitcoinCoreOfflineStartup4
+    },
+    {
+      path: '/BCO/step5',
+      name: 'BitcoinCoreOfflineStartup5',
+      component: BitcoinCoreOfflineStartup5
     }
   ]
 })

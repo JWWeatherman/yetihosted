@@ -26,6 +26,7 @@
       </div>
       <p>
        <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub repo.</p>
+       <p style="color:gray;">For a list of utitls click <a v-on:click="Utils">here</a></p>
     </div>
   </div>
 </template>
@@ -41,9 +42,14 @@ export default {
       this.$router.push({path: '/Warm/step4'})
     }else if (host === 'HOT.YETICOLD.COM') {
       this.$router.push({path: '/Hot/step4'})
+    }else if (host === 'BCO.YETICOLD.COM') {
+      this.$router.push({path: '/BCO/step4'})
     }
   },
   methods: {
+    Utils () {
+      this.$router.push({path: '/Utils'})
+    },
     Cold () {
       this.$router.push({path: '/Cold/step1'})
     },
