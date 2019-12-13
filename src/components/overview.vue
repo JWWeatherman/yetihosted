@@ -26,7 +26,7 @@
       </div>
       <p>
        <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub repo.</p>
-       <p style="color:gray;">For a list of utitls click <a v-on:click="Utils">here</a></p>
+       <p>For a list of utitls click <a href="" v-on:click="Utils">here</a></p>
     </div>
   </div>
 </template>
