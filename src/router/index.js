@@ -22,8 +22,8 @@ import BitcoinCoreOfflineStartup2 from '@/components/BitcoinCoreOfflineStartup2'
 import BitcoinCoreOfflineStartup3 from '@/components/BitcoinCoreOfflineStartup3'
 import BitcoinCoreOfflineStartup4 from '@/components/BitcoinCoreOfflineStartup4'
 import BitcoinCoreOfflineStartup5 from '@/components/BitcoinCoreOfflineStartup5'
-import Overview from '@/components/overview'
-import UtilsOverview from '@/components/utilsoverview'
+import Overview from '@/components/Overview'
+import UtilsOverview from '@/components/UtilsOverview'
 
 
 import BootstrapVue from 'bootstrap-vue'
