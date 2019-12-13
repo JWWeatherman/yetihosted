@@ -24,9 +24,8 @@
             <input v-on:click="Hot" style="margin-bottom:50px;" class="btn btn-danger btn-large" type="submit" id="next" value="Yeti Hot">
           </p>
       </div>
-      <p>
-       <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub repo.</p>
-       <p>For a list of utitls click <a href="" v-on:click="Utils">here</a></p>
+      <a style="margin-top:30px;margin-bottom:30px;color:gray;" href="" v-on:click="Utils">Yeti Utilites</a>
+      <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub repo.</p>
     </div>
   </div>
 </template>
