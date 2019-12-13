@@ -45,7 +45,7 @@ export default new Router({
       component: Overview
     },
     {
-      path: '/Utils'
+      path: '/Utils',
       name: 'UtilsOverview',
       component: UtilsOverview
     },
