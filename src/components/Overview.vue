@@ -44,6 +44,12 @@ export default {
       this.$router.push({path: '/Hot/step4'})
     }else if (host === 'BCO.YETICOLD.COM') {
       this.$router.push({path: '/BCO/step4'})
+    }else if (host === 'REC.YETICOLD.COM') {
+      this.$router.push({path: '/Cold/Recovery/step7'})
+    }else if (host === 'DISC.YETICOLD.COM') {
+      this.$router.push({path: '/Cold/step7'})
+    }else if (host === 'OFF.YETICOLD.COM') {
+      this.$router.push({path: '/BCO/step6'})
     }
   },
   methods: {

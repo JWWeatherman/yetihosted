@@ -7,6 +7,8 @@ import YetiColdStartup4 from '@/components/YetiColdStartup4'
 import YetiColdStartup5 from '@/components/YetiColdStartup5'
 import YetiColdStartup6 from '@/components/YetiColdStartup6'
 import YetiColdRecoveryStartup6 from '@/components/YetiColdRecoveryStartup6'
+import YetiColdStartup7 from '@/components/YetiColdStartup7'
+import YetiColdRecoveryStartup7 from '@/components/YetiColdRecoveryStartup7'
 import YetiWarmStartup1 from '@/components/YetiWarmStartup1'
 import YetiWarmStartup2 from '@/components/YetiWarmStartup2'
 import YetiWarmStartup3 from '@/components/YetiWarmStartup3'
@@ -22,6 +24,7 @@ import BitcoinCoreOfflineStartup2 from '@/components/BitcoinCoreOfflineStartup2'
 import BitcoinCoreOfflineStartup3 from '@/components/BitcoinCoreOfflineStartup3'
 import BitcoinCoreOfflineStartup4 from '@/components/BitcoinCoreOfflineStartup4'
 import BitcoinCoreOfflineStartup5 from '@/components/BitcoinCoreOfflineStartup5'
+import BitcoinCoreOfflineStartup6 from '@/components/BitcoinCoreOfflineStartup6'
 import Overview from '@/components/Overview'
 import UtilsOverview from '@/components/UtilsOverview'
 
@@ -75,14 +78,14 @@ export default new Router({
       component: YetiColdStartup5
     },
     {
-      path: '/Cold/Recovery/step6',
-      name: 'YetiColdRecoveryStartup6',
-      component: YetiColdRecoveryStartup6
-    },
-    {
       path: '/Cold/step6',
       name: 'YetiColdStartup6',
       component: YetiColdStartup6
+    },
+    {
+      path: '/Cold/Recovery/step6',
+      name: 'YetiColdRecoveryStartup6',
+      component: YetiColdRecoveryStartup6
     },
     {
       path: '/Warm/step1',
@@ -158,6 +161,21 @@ export default new Router({
       path: '/BCO/step5',
       name: 'BitcoinCoreOfflineStartup5',
       component: BitcoinCoreOfflineStartup5
+    },
+    {
+      path: '/BCO/step6',
+      name: 'BitcoinCoreOfflineStartup6',
+      component: BitcoinCoreOfflineStartup6
+    },
+    {
+      path: '/Cold/step7',
+      name: 'YetiColdStartup7',
+      component: YetiColdStartup7
+    },
+    {
+      path: '/Cold/Recovery/step7',
+      name: 'YetiColdRecoveryStartup7',
+      component: YetiColdRecoveryStartup7
     }
   ]
 })
