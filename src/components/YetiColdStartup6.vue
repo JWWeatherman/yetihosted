@@ -6,7 +6,7 @@
       <ol>
           <li>Click <b>Copy</b> to copy the text below this line.</li>
           <div style="width:75%;" class="input-group mb-3 mt-3">
-            <input v-on:click="copy1" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy1" aria-describedby="inputGroup-sizing-default" value="python3 ~/yeticold/scripts/YetiColdOnline.py">
+            <input v-on:click="copy1" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy1" aria-describedby="inputGroup-sizing-default" value="python3 ~/yeticold/scripts/YetiCold.py">
             <div class="input-group-append">
               <span v-on:click="copy1" class="btn btn-secondary" id="basic-addon2">Copy</span>
             </div>
