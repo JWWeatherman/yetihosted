@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 5: Start Bitcoin Core Offline on your <b>Online</b> laptop.</h2>
+      <h2>Step 2: Start Yeticold on your <b>Disconnected</b> laptop.</h2>
       <ol>
           <li>On your <b>Online</b> laptop click on the <b>9 Dots</b> in the bottom left corner of your Ubuntu desktop and then click <b>Terminal</b>.</li>
           <li>Click <b>Copy</b> to copy the text below this line.</li>
@@ -22,7 +22,7 @@
           </div>
           <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
           <li>When a new browser window is opened click <b>Try Again</b>.</li>
-          <li>Once Step 6 is shown, close this tab to continue with Step 6 in the other tab.</li>
+          <li>Once Step 3 is shown, close this tab to continue with Step 3 in the other tab.</li>
       </ol> 
     </div>
   </div>
