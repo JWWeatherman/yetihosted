@@ -15,7 +15,7 @@
         <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
         <li>Click <b>Next</b> to continue.</li>
       </ol>         
-      <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">
+      <input v-on:click="click" style="margin-top:35px;" class="btn btn-secondary" type="submit" id="next" value="Next">
     </div>
   </div>
 </template>

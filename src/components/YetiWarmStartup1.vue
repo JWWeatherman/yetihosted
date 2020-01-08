@@ -9,7 +9,7 @@
             <li>8 small USB thumb drives. These will cost about $3 each and will be used to store your bitcoin seeds along with a paper copy.</li>
             <li>A printer and printer paper.</li>
         </ul>
-      <input v-on:click="click" class="btn btn-primary" type="submit" id="next" value="Next">
+      <input v-on:click="click" class="btn btn-warning" type="submit" id="next" value="Next">
     </div>
   </div>
 </template>
