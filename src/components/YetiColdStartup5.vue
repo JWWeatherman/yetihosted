@@ -1,22 +1,20 @@
-<template>
+ <template>
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:50px;">Step 5: Choose Setup or Recovery</h2>
-      <div class="hero-unit">
-          <h1>Setup Yeti Cold Storage</h1>
-          <p>Select this option if you want to create a new place to store bitcoin.</p>
-          <p>
-            <input v-on:click="start" style="margin-bottom:50px;" class="btn btn-primary btn-large" type="submit" id="next" value="Setup">
-          </p>
-      </div>
-      <div class="hero-unit">
-          <h1>Recover Bitcoin from Yeti Cold Storage</h1>
-          <p>Select this option if you want to spend bitcoin out of your existing Yeti Cold Storage location and you have 3 of your 7 seed packets.</p>
-          <p>
-            <input v-on:click="recover" style="margin-bottom:50px;" class="btn btn-primary btn-large" type="submit" id="next" value="Recover">
-          </p>
-      </div>
+      <h2>Step 6: Start Yeti on your <b>Primary</b> Laptop.</h2>
+      <ol>
+          <li>Click <b>Copy</b> to copy the text below this line.</li>
+          <div style="width:75%;" class="input-group mb-3 mt-3">
+            <input v-on:click="copy1" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy1" aria-describedby="inputGroup-sizing-default" value="python3 ~/yeticold/scripts/YetiCold.py">
+            <div class="input-group-append">
+              <span v-on:click="copy1" class="btn btn-secondary" id="basic-addon2">Copy</span>
+            </div>
+          </div>
+          <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
+          <li>When a new browser window is opened click <b>Try Again</b>.</li>
+          <li>Once Step 7 is shown, close this tab to continue with Step 7 in the other tab.</li>
+      </ol> 
     </div>
   </div>
 </template>
@@ -25,11 +23,11 @@
 import navbarcold from './navbarcold'
 export default {
   methods: {
-    start () {
-      this.$router.push({path: '/Cold/step6'})
-    },
-    recover () {
-      this.$router.push({path: '/Cold/Recovery/step6'})
+    copy1 () {
+      let copyText = document.getElementById("copy1")
+      copyText.select()
+      copyText.setSelectionRange(0, 99999)
+      document.execCommand("copy")
     }
   },
   components: {
