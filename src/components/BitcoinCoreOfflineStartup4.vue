@@ -2,9 +2,9 @@
   <div>
     <navbarBCO></navbarBCO>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 4: Download Yeti to the Online Laptop</h2>
+      <h2 style="margin-bottom:35px;">Step 4: Download Yeti to the <b>Primary</b> Laptop</h2>
       <ol>
-        <li>On your <b>Online</b> laptop click on the <b>9 Dots</b> in the bottom left corner of your Ubuntu desktop and then click <b>Terminal</b>.</li>
+        <li>On your <b>Primary</b> laptop click on the <b>9 Dots</b> in the bottom left corner of your Ubuntu desktop and then click <b>Terminal</b>.</li>
         <li>Click <b>Copy</b> to copy the text below this line.</li>
         <div style="width:75%;" class="input-group mb-3 mt-3">
           <input v-on:click="copy1" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy1" aria-describedby="inputGroup-sizing-default" value="sudo apt-get update; sudo apt-get install git; git clone https://github.com/jwweatherman/yeticold.git ~/yeticold">

@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 8: Start Yeti Cold on your <b>Disconnected</b> laptop.</h2>
+      <h2>Step 8: Start Yeti Cold on your <b>Secondary</b> laptop.</h2>
       <ol>
           <li>On your <b>Secondary</b> laptop click on the <b>9 Dots</b> in the bottom left corner of your Ubuntu desktop and then click <b>Terminal</b>.</li>
           <li>Click <b>Copy</b> to copy the text below this line.</li>

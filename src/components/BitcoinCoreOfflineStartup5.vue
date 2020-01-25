@@ -2,7 +2,7 @@
   <div>
     <navbarBCO></navbarBCO>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 5: Start Bitcoin Core Offline on your <b>Online</b> laptop.</h2>
+      <h2>Step 5: Start Bitcoin Core Offline on your <b>Primary</b> laptop.</h2>
       <ol>
           <li>Click <b>Copy</b> to copy the text below this line.</li>
           <div style="width:75%;" class="input-group mb-3 mt-3">
