@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 6: Start Yeti on your <b>Primary</b> Laptop.</h2>
+      <h2>Step 5: Start Yeti on your <b>Primary</b> Laptop.</h2>
       <ol>
           <li>Click <b>Copy</b> to copy the text below this line.</li>
           <div style="width:75%;" class="input-group mb-3 mt-3">
