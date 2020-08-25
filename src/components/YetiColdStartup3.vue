@@ -5,7 +5,7 @@
       <h2>Step 3: Switch to your Primary laptop</h2>
       <div>On your <b>Primary</b> laptop open Firefox and type the following URL into the address bar and click <b>Enter</b>.</div>
       <div></div>
-      <code>cold.yeticold.com</code>
+      <a href="https://cold.yeticold.com"><code>cold.yeticold.com</code></a>
     </div>
   </div>
 </template>
