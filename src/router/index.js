@@ -16,7 +16,6 @@ import YetiHotStartup1 from '@/components/YetiHotStartup1'
 import YetiHotStartup2 from '@/components/YetiHotStartup2'
 import YetiHotStartup3 from '@/components/YetiHotStartup3'
 import YetiHotStartup4 from '@/components/YetiHotStartup4'
-import YetiHotStartup5 from '@/components/YetiHotStartup5'
 import BitcoinCoreOfflineStartup1 from '@/components/BitcoinCoreOfflineStartup1'
 import BitcoinCoreOfflineStartup2 from '@/components/BitcoinCoreOfflineStartup2'
 import BitcoinCoreOfflineStartup3 from '@/components/BitcoinCoreOfflineStartup3'
@@ -69,11 +68,6 @@ export default new Router({
       path: '/Cold/step4',
       name: 'YetiColdStartup4',
       component: YetiColdStartup4
-    },
-    {
-      path: '/Cold/step5',
-      name: 'YetiColdStartup5',
-      component: YetiColdStartup5
     },
     {
       path: '/Cold/step6',
