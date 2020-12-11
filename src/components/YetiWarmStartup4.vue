@@ -12,8 +12,16 @@
             <span v-on:click="copy1" class="btn btn-secondary" id="basic-addon2">Copy</span>
           </div>
         </div>          
-        <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>. If you see an error that the directory already exists ignore it as this just means Yeti is already installed on this laptop.</li>
-        <li>Click <b>Next</b> to continue.</li>
+        <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
+        <li>Click <b>Copy</b> to copy the text below this line.</li>
+          <div style="width:75%;" class="input-group mb-3 mt-3">
+            <input v-on:click="copy2" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy2" aria-describedby="inputGroup-sizing-default" value="python3 yeticold/scripts/initialize.py Yetiwarm">
+            <div class="input-group-append">
+              <span v-on:click="copy2" class="btn btn-secondary" id="basic-addon2">Copy</span>
+            </div>
+          </div>
+          <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
+          <li>Once Step 5 is shown, close this tab to continue with Step 5 in the other tab.</li>
       </ol>      
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-warning" type="submit" id="next" value="Next">
     </div>
@@ -24,9 +32,6 @@
 import navbarwarm from './navbarwarm'
 export default {
   methods: {
-   click () {
-      this.$router.push({path: '/Warm/step5'})
-    },
     copy1 () {
       let copyText = document.getElementById("copy1")
       copyText.select()

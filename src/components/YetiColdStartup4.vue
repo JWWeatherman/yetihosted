@@ -21,7 +21,6 @@
             </div>
           </div>
           <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
-          <li>When a new browser window is opened click <b>Try Again</b>.</li>
           <li>Once Step 5 is shown, close this tab to continue with Step 5 in the other tab.</li>
       </ol>         
     </div>
