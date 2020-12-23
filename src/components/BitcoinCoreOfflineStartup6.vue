@@ -15,7 +15,7 @@
           <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
           <li>Click <b>Copy</b> to copy the text below this line.</li> 
           <div style="width:75%;" class="input-group mb-3 mt-3">
-            <input v-on:click="copy2" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy2" aria-describedby="inputGroup-sizing-default" value="python3 ~/yeticold/scripts/off.py">
+            <input v-on:click="copy2" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy2" aria-describedby="inputGroup-sizing-default" value="python3 ~/yeticold/initialize.py BitcoinCoreOfflineSecondary">
             <div class="input-group-append">
               <span v-on:click="copy2" class="btn btn-secondary" id="basic-addon2">Copy</span>
             </div>

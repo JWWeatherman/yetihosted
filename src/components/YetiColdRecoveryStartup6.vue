@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 6: Download Yeti to the <b>Secondary</b> Laptop</h2>
+      <h2 style="margin-bottom:35px;">Step 6: Set up Yeti on your <b>Secondary</b> Laptop</h2>
       <ol>
         <li>On your <b>Secondary</b> laptop click on the <b>9 Dots</b> in the bottom left corner of your Ubuntu desktop and then click <b>Terminal</b>.</li>
         <li>Click <b>Copy</b> to copy the text below this line.</li>
@@ -15,13 +15,12 @@
         <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
         <li>Click <b>Copy</b> to copy the text below this line.</li>
           <div style="width:75%;" class="input-group mb-3 mt-3">
-            <input v-on:click="copy2" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy2" aria-describedby="inputGroup-sizing-default" value="python3 yeticold/scripts/initialize.py YeticoldSecondaryRecovery">
+            <input v-on:click="copy2" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy2" aria-describedby="inputGroup-sizing-default" value="python3 ~/yeticold/initialize.py YeticoldSecondaryRecovery">
             <div class="input-group-append">
               <span v-on:click="copy2" class="btn btn-secondary" id="basic-addon2">Copy</span>
             </div>
           </div>
           <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
-          <li>When a new browser window is opened click <b>Try Again</b>.</li>
           <li>Once Step 7 is shown, close this tab to continue with Step 7 in the other tab.</li>
       </ol>         
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">

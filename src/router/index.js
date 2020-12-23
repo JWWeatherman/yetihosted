@@ -6,6 +6,7 @@ import YetiColdStartup3 from '@/components/YetiColdStartup3'
 import YetiColdStartup4 from '@/components/YetiColdStartup4'
 import YetiColdStartup6 from '@/components/YetiColdStartup6'
 import YetiColdRecoveryStartup6 from '@/components/YetiColdRecoveryStartup6'
+import YetiColdLoad1 from '@/components/YetiColdLoad1'
 import YetiWarmStartup1 from '@/components/YetiWarmStartup1'
 import YetiWarmStartup2 from '@/components/YetiWarmStartup2'
 import YetiWarmStartup3 from '@/components/YetiWarmStartup3'
@@ -20,6 +21,7 @@ import BitcoinCoreOfflineStartup3 from '@/components/BitcoinCoreOfflineStartup3'
 import BitcoinCoreOfflineStartup4 from '@/components/BitcoinCoreOfflineStartup4'
 import BitcoinCoreOfflineStartup5 from '@/components/BitcoinCoreOfflineStartup5'
 import BitcoinCoreOfflineStartup6 from '@/components/BitcoinCoreOfflineStartup6'
+import ColdWalletGuide from '@/components/ColdWalletGuide'
 import Overview from '@/components/Overview'
 import UtilsOverview from '@/components/UtilsOverview'
 
@@ -73,9 +75,19 @@ export default new Router({
       component: YetiColdStartup6
     },
     {
+      path: '/Cold/Load1',
+      name: 'YetiColdLoad1',
+      component: YetiColdLoad1
+    },
+    {
       path: '/Cold/Recovery/step6',
       name: 'YetiColdRecoveryStartup6',
       component: YetiColdRecoveryStartup6
+    },
+    {
+      path: '/Cold/Guide',
+      name: 'ColdWalletGuide',
+      component: ColdWalletGuide
     },
     {
       path: '/Warm/step1',
