@@ -19,7 +19,7 @@
       </div>
       <div class="hero-unit">
           <h1>Yeti Level 1 Wallet</h1>
-          <p>Yeti Hot Storage is recommended for storing under $5,000 USD worth of Bitcoin. It is very easy to backup and restore and requires only a single computer to setup.</p>
+          <p>Level 1 Storage is recommended for storing under $5,000 USD worth of Bitcoin. It is very easy to backup and restore and requires only a single computer to setup.</p>
           <p>
             <input v-on:click="Hot" style="margin-bottom:50px;" class="btn btn-danger btn-large" type="submit" id="next" value="Level 1">
           </p>
