@@ -5,21 +5,21 @@
       <h2></h2>
       <div class="hero-unit">
           <h1>Yeti Level 3 Wallet</h1>
-          <p>Level 3 Storage is recommended for more than $50,000 USD worth of Bitcoin. It is a 3 of 7 HD Multisig setup where private keys are never on an Internet connected device.</p>
+          <p>Level 3 is recommended for more than $50,000 USD worth of Bitcoin. It is a 3 of 7 HD Multisig setup where private keys are never on an Internet connected device.</p>
           <p>
             <input v-on:click="Cold" style="margin-bottom:50px;" class="btn btn-primary btn-large" type="submit" id="next" value="Level 3">
           </p>
       </div>
       <div class="hero-unit">
           <h1>Yeti Level 2 Wallet</h1>
-          <p>Level 2 Storage is recommended for storing between $5,000 and $50,000 USD worth of Bitcoin. It is a 3 of 7 HD Multisig setup that requires only a single computer to setup.</p>
+          <p>Level 2 is recommended for storing between $5,000 and $50,000 USD worth of Bitcoin. It is a 3 of 7 HD Multisig setup that requires only a single laptop.</p>
           <p>
             <input v-on:click="Warm" style="margin-bottom:50px;" class="btn btn-warning btn-large" type="submit" id="next" value="Level 2">
           </p>
       </div>
       <div class="hero-unit">
           <h1>Yeti Level 1 Wallet</h1>
-          <p>Level 1 Storage is recommended for storing under $5,000 USD worth of Bitcoin. It is very easy to backup and restore and requires only a single computer to setup.</p>
+          <p>Level 1 is recommended for storing under $5,000 USD worth of Bitcoin. It is very easy to backup and restore and requires only a single computer to setup.</p>
           <p>
             <input v-on:click="Hot" style="margin-bottom:50px;" class="btn btn-danger btn-large" type="submit" id="next" value="Level 1">
           </p>
