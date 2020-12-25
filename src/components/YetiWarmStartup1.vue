@@ -3,7 +3,7 @@
     <navbarwarm></navbarwarm>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 1: Gather Required Equipment</h2>
-      <p>Gather the following items and then click next.</p>
+      <p>Gather the following items and then click <b>Next</b>.</p>
         <ul>
             <li>A laptop that can run Ubuntu and Bitcoin Core. Almost any laptop made for Windows will work but if your laptop has an SSD type hard some steps will take a few hours instead of a few days. New laptops without SSD type drives cost about $150 USD and laptops with SSD drives cost about $200 USD. You can buy a used laptop on eBay for about $60 or you can buy a laptop from a store like Walmart and return it after setup as long as you are careful to erase it.</li>
             <li>1 USB thumb drive. It will cost about $3 and will be used to install Ubuntu.</li>
