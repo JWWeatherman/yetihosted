@@ -37,6 +37,12 @@ export default {
       copyText.select()
       copyText.setSelectionRange(0, 99999)
       document.execCommand("copy")
+    },
+    copy2 () {
+      let copyText = document.getElementById("copy2")
+      copyText.select()
+      copyText.setSelectionRange(0, 99999)
+      document.execCommand("copy")
     }
   },
   components: {
