@@ -1,6 +1,9 @@
 <template>
   <div>
-    <navbarcold></navbarcold>
+    <nav class="form-row navbar navbar-light bg-primary">
+        <img src="@/assets/logo.png" width="50" height="50" class="align-top" alt="">
+        <h3 style="color:white;margin:0;">Yeti Bitcoin Wallet</h3>
+    </nav>
     <div class="container" style="margin-top: 3rem;">
       <h2></h2>
       <div class="hero-unit">
