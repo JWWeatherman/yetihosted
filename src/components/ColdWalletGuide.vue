@@ -184,28 +184,6 @@
 <script>
   import navbarcold from './navbarcold'
   export default {
-    data() {
-      return {
-        slide: 0,
-        sliding: null,
-        slide2: 0,
-        sliding2: null
-      }
-    },
-    methods: {
-      onSlideStart(slide) {
-        this.sliding = true
-      },
-      onSlideEnd(slide) {
-        this.sliding = false
-      },
-      onSlideStart2(slide2) {
-        this.sliding2 = true
-      },
-      onSlideEnd2(slide2) {
-        this.sliding2 = false
-      }
-    },
   components: {
     navbarcold
   }
