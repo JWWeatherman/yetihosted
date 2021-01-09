@@ -21,7 +21,7 @@
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Receive: Finished</h3> 
-          <p class="card-text">Confirm that your wallet (outlined in red) shows "yetiwalletpriv"(offline laptop) or "yetiwalletpub"(online laptop). You can now send money to the wallet using the QR code or the address displayed bellow it.</p>
+          <p class="card-text">Confirm that your wallet (outlined in red) shows "yetiwalletpub"(online laptop).  Then head to your offline laptop, which should show "yetiwalletpriv". Generate a receiving address using the same instructions. The address should match the address generated on the online machine. You can now send money to the wallet using the QR code or the address displayed bellow it.</p>
         </div>
         <img class="card-img-top" src="@/assets/Receive3.png" alt="Card image cap">
       </div>
@@ -85,7 +85,6 @@
           <ol>
             <li>Switch to your Offline laptop</li>
             <li>Insert the usb drive labled "Transfer" to laptop.</li>
-            <li>Delete all visable files in the USB drive.</li>
             <li>Copy the file labled <b>unsigned.psbt</b> to the "Documents" Folder. The file is located in your usb drive.</li>
             <li>Eject the USB drive.</li>
           </ol>
@@ -143,7 +142,6 @@
           <ol>
             <li>Switch to your Online laptop</li>
             <li>Insert the usb drive labled "Transfer" to laptop.</li>
-            <li>Delete all visable files in the USB drive.</li>
             <li>Copy the file labled <b>signed.psbt</b> to the "Documents" Folder. The file is located in your usb drive.</li>
             <li>Eject the USB drive.</li>
           </ol>
