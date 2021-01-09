@@ -12,6 +12,8 @@
             <li>2 USB thumb drives. These will cost about $3 each and will be used to install Ubuntu and to transfer transactions between your laptops. Label one "Ubuntu" and the other "Transfer."</li>
         </ul>
       <input v-on:click="click" class="btn btn-primary" type="submit" id="next" value="Next">
+      <p></p>
+      <p style="color:light-gray;"><a href="https://www.youtube.com/watch?v=PbAYsjqOtBU">Video walk through</a></p>
     </div>
   </div>
 </template>
