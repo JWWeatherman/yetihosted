@@ -10,6 +10,8 @@
             <li>5 blank CD rom drives and a CD-R drive. Many laptops have a built in CR-R drive, but an external CD-R drive can be purchased for about $15 from Amazon.</li>
         </ul>
       <input v-on:click="click" class="btn btn-danger" type="submit" id="next" value="Next">
+      <p></p>
+      <p style="color:light-gray;"><a href="https://www.youtube.com/watch?v=sjExNFcdVmo">Video walk through</a></p>
     </div>
   </div>
 </template>
