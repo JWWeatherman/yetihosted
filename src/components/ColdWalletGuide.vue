@@ -21,7 +21,12 @@
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Receive: Finished</h3> 
-          <p class="card-text">Confirm that your wallet (outlined in red) shows "yetiwalletpub"(online laptop).  Then head to your offline laptop, which should show "yetiwalletpriv". Generate a receiving address using the same instructions. The address should match the address generated on the online machine. You can now send money to the wallet using the QR code or the address displayed bellow it.</p>
+          <p class="card-text">
+          <li>Confirm that your wallet (outlined in red) shows "yetiwalletpub"(online laptop). Then head to your offline laptop, which should show "yetiwalletpriv". Generate a receiving address using the same instructions.</li>
+          <li>If it is your first time using this setup, the addresses will match. If it is your second time, you will need to generate a second address to match, your third - third address, and etc. This is because the online machine can keep track of addresses used, while the offline machine cannot.</li>
+          <li>Keep generating addresses until the address generated on the offline machine matches the address generated on the online machine. You can now send money to the wallet using the QR code or the address displayed bellow it.</li>
+          <li>If this becomes too time consuming, you can match the addresses generated on the offline machine with the address history under the "Transactions" tab on the online machine. The first address generated should match the first address under transactions, the second address to the second transaction, etc.</li>
+          </p>
         </div>
         <img class="card-img-top" src="@/assets/Receive3.png" alt="Card image cap">
       </div>
