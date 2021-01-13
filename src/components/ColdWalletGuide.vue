@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="container" style="margin-top: 3rem;">
-      <input v-on:click="click" class="btn btn-primary mb-3" type="submit" id="next" value="Next">
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Receive: Step 1</h3> 
