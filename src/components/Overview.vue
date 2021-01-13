@@ -27,7 +27,7 @@
             <input v-on:click="Hot" style="margin-bottom:50px;" class="btn btn-danger btn-large" type="submit" id="next" value="Level 1">
           </p>
       </div>
-      <a style="margin-top:30px;margin-bottom:30px;color:#585858;text-decoration: underline;" href="" v-on:click="Utils">Yeti Utilities</a>
+      <!-- <a style="margin-top:30px;margin-bottom:30px;color:#585858;text-decoration: underline;" href="" v-on:click="Utils">Yeti Utilities</a> -->
       <p></p>
       <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub Repo.</p>
     </div>
@@ -45,19 +45,20 @@ export default {
       this.$router.push({path: '/Warm/step4'})
     }else if (host === 'ONE.YETICOLD.COM') {
       this.$router.push({path: '/Hot/step4'})
-    }else if (host === 'BCO.YETICOLD.COM') {
-      this.$router.push({path: '/BCO/step4'})
     }else if (host === 'REC.YETICOLD.COM') {
       this.$router.push({path: '/Cold/Recovery/step6'})
     }else if (host === 'DISC.YETICOLD.COM') {
       this.$router.push({path: '/Cold/step6'})
-    }else if (host === 'OFF.YETICOLD.COM') {
-      this.$router.push({path: '/BCO/step6'})
     }else if (host === 'GUIDE3.YETICOLD.COM') {
-      this.$router.push({path: '/Cold/Guide'})
+      this.$router.push({path: '/Cold/Test/step1'})
     }else if (host === 'LOAD.YETICOLD.COM') {
       this.$router.push({path: '/Cold/Load1'})
     }
+    // else if (host === 'BCO.YETICOLD.COM') {
+    //   this.$router.push({path: '/BCO/step4'})
+    // }else if (host === 'OFF.YETICOLD.COM') {
+    //   this.$router.push({path: '/BCO/step6'})
+    // }
   },
   methods: {
     Utils () {

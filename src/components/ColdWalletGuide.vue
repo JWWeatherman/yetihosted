@@ -1,9 +1,7 @@
 <template>
   <div>
-    <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h1>Cold Wallet Guide</h1>
-      <p>These steps will walk you through <b>Sending</b> and <b>Reciving</b>.</p>
+      <input v-on:click="click" class="btn btn-primary mb-3" type="submit" id="next" value="Next">
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Receive: Step 1</h3> 
@@ -180,12 +178,3 @@
     </div>
   </div>
 </template>
-
-<script>
-  import navbarcold from './navbarcold'
-  export default {
-  components: {
-    navbarcold
-  }
-  }
-</script>

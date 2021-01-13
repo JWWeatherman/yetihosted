@@ -6,7 +6,9 @@ import YetiColdStartup3 from '@/components/YetiColdStartup3'
 import YetiColdStartup4 from '@/components/YetiColdStartup4'
 import YetiColdStartup6 from '@/components/YetiColdStartup6'
 import YetiColdRecoveryStartup6 from '@/components/YetiColdRecoveryStartup6'
-import YetiColdLoad1 from '@/components/YetiColdLoad1'
+import YetiColdTest1 from '@/components/YetiColdTest1'
+import YetiColdTest2 from '@/components/YetiColdTest2'
+import YetiColdTest3 from '@/components/YetiColdTest3'
 import YetiWarmStartup1 from '@/components/YetiWarmStartup1'
 import YetiWarmStartup2 from '@/components/YetiWarmStartup2'
 import YetiWarmStartup3 from '@/components/YetiWarmStartup3'
@@ -75,9 +77,19 @@ export default new Router({
       component: YetiColdStartup6
     },
     {
-      path: '/Cold/Load1',
-      name: 'YetiColdLoad1',
-      component: YetiColdLoad1
+      path: '/Cold/Test/step1',
+      name: 'YetiColdTest1',
+      component:  YetiColdTest1
+    },
+    {
+      path: '/Cold/Test/step2',
+      name: 'YetiColdTest2',
+      component:  YetiColdTest2
+    },
+    {
+      path: '/Cold/Test/step3',
+      name: 'YetiColdTest3',
+      component:  YetiColdTest3
     },
     {
       path: '/Cold/Recovery/step6',
