@@ -29,10 +29,10 @@
           <img class="card-img-top" src="@/assets/terminal3.png" alt="Card image cap">
         </div>
         <li>Your hard drive has now been erased. On the desktop click the desktop shortcut to install ubuntu.</li>
-        <li>Once your laptop has been reinstalled with ubuntu click <b>Next</b>.</li>
-      </ol>
-      <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">
-    </div>
+<!--         <li>Once your laptop has been reinstalled with ubuntu click <b>Next</b>.</li>
+ -->      </ol>
+<!--       <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">
+ -->    </div>
   </div>
 </template>
 
