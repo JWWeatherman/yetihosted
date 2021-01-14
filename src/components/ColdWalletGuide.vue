@@ -70,7 +70,6 @@
           <h3>Send: Step 7</h3> 
           <ol>
             <li>Insert the usb drive labled "Transfer" to laptop.</li>
-            <li>Delete all visable files in the USB drive.</li>
             <li>Copy the file labled <b>unsigned.psbt</b> to the inserted USB drive. The file is located in your <b>Documents</b> folder.</li>
             <li>Eject the USB drive.</li>
           </ol>
@@ -82,7 +81,6 @@
           <ol>
             <li>Switch to your Offline laptop</li>
             <li>Insert the usb drive labled "Transfer" to laptop.</li>
-            <li>Delete all visable files in the USB drive.</li>
             <li>Copy the file labled <b>unsigned.psbt</b> to the "Documents" Folder. The file is located in your usb drive.</li>
             <li>Eject the USB drive.</li>
           </ol>
