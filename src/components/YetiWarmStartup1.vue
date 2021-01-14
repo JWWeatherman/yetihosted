@@ -11,7 +11,7 @@
         </ul>
       <input v-on:click="click" class="btn btn-warning" type="submit" id="next" value="Next">
       <p></p>
-      <p style="color:light-gray;"><a href="https://www.youtube.com/watch?v=n3bC41n6J2M">Video walk through</a></p>
+      <p style="color:light-gray;"><a href="https://www.youtube.com/watch?v=y3yXo0zhqL0">Video walk through</a></p>
     </div>
   </div>
 </template>
