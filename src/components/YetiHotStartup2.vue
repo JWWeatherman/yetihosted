@@ -7,9 +7,9 @@
         <li>Install Ubuntu on both laptops following these rules.</li>
         <ul>
             <li>Use the Long Term Support (LTS) Version of Ubuntu. This is currently 20.04 and is at the top of the download page. We can not guarantee that Yeticold will work with any other Ubuntu version.</li>
+            <li>Use only trustworthy guides such as this one: <a href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0">Install Ubuntu</a>.</li>
             <li>Delete and erase all existing partitions using the Disk Utility that you can access by selecting "Try Ubuntu" before installing Ubuntu.</li>
             <li>Use one of your USB drives to create a Bootable Ubuntu drive.</li>
-            <li>Use only trustworthy guides such as this one: <a href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0">Install Ubuntu</a>.</li>
         </ul>
         <li>After you see the desktop click on the <b>9 Dots</b> in the bottom left corner of your Ubuntu desktop and then click <b>Software Updater</b>.</li>
         <li>Click <b>Install Now</b>.</li>
