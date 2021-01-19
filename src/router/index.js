@@ -1,31 +1,36 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import YetiColdStartup1 from '@/components/YetiColdStartup1'
-import YetiColdStartup2 from '@/components/YetiColdStartup2'
-import YetiColdStartup3 from '@/components/YetiColdStartup3'
-import YetiColdStartup4 from '@/components/YetiColdStartup4'
-import YetiColdStartup6 from '@/components/YetiColdStartup6'
-import YetiColdRecoveryStartup6 from '@/components/YetiColdRecoveryStartup6'
-import YetiColdTest1 from '@/components/YetiColdTest1'
-import YetiColdTest2 from '@/components/YetiColdTest2'
-import YetiColdTest3 from '@/components/YetiColdTest3'
-import YetiWarmStartup1 from '@/components/YetiWarmStartup1'
-import YetiWarmStartup2 from '@/components/YetiWarmStartup2'
-import YetiWarmStartup3 from '@/components/YetiWarmStartup3'
-import YetiWarmStartup4 from '@/components/YetiWarmStartup4'
-import YetiHotStartup1 from '@/components/YetiHotStartup1'
-import YetiHotStartup2 from '@/components/YetiHotStartup2'
-import YetiHotStartup3 from '@/components/YetiHotStartup3'
-import YetiHotStartup4 from '@/components/YetiHotStartup4'
-import BitcoinCoreOfflineStartup1 from '@/components/BitcoinCoreOfflineStartup1'
-import BitcoinCoreOfflineStartup2 from '@/components/BitcoinCoreOfflineStartup2'
-import BitcoinCoreOfflineStartup3 from '@/components/BitcoinCoreOfflineStartup3'
-import BitcoinCoreOfflineStartup4 from '@/components/BitcoinCoreOfflineStartup4'
-import BitcoinCoreOfflineStartup5 from '@/components/BitcoinCoreOfflineStartup5'
-import BitcoinCoreOfflineStartup6 from '@/components/BitcoinCoreOfflineStartup6'
-import ColdWalletGuide from '@/components/ColdWalletGuide'
 import Overview from '@/components/Overview'
-import UtilsOverview from '@/components/UtilsOverview'
+import YCSetup1 from '@/components/YCSetup1'
+import YCSetup2 from '@/components/YCSetup2'
+import YCSetup3 from '@/components/YCSetup3'
+import YCSetup4 from '@/components/YCSetup4'
+import YCSetup6 from '@/components/YCSetup6'
+import YCSetup6R from '@/components/YCSetup6R'
+import YCTest1 from '@/components/YCTest1'
+import YCTest2 from '@/components/YCTest2'
+import YCTest3 from '@/components/YCTest3'
+import YCRecover1 from '@/components/YCRecover1'
+import YCRecover2 from '@/components/YCRecover2'
+import YWSetup1 from '@/components/YWSetup1'
+import YWSetup2 from '@/components/YWSetup2'
+import YWSetup3 from '@/components/YWSetup3'
+import YWSetup4 from '@/components/YWSetup4'
+import YWTest1 from '@/components/YWTest1'
+import YWTest2 from '@/components/YWTest2'
+import YWTest3 from '@/components/YWTest3'
+import YWRecover1 from '@/components/YWRecover1'
+import YWRecover2 from '@/components/YWRecover2'
+import YHSetup1 from '@/components/YHSetup1'
+import YHSetup2 from '@/components/YHSetup2'
+import YHSetup3 from '@/components/YHSetup3'
+import YHSetup4 from '@/components/YHSetup4'
+import YHTest1 from '@/components/YHTest1'
+import YHTest2 from '@/components/YHTest2'
+import YHTest3 from '@/components/YHTest3'
+import YHRecover1 from '@/components/YHRecover1'
+import YHRecover2 from '@/components/YHRecover2'
+
 
 
 import BootstrapVue from 'bootstrap-vue'
@@ -47,129 +52,149 @@ export default new Router({
       component: Overview
     },
     {
-      path: '/Utils',
-      name: 'UtilsOverview',
-      component: UtilsOverview
-    },
-    {
       path: '/Cold/step1',
-      name: 'YetiColdStartup1',
-      component: YetiColdStartup1
+      name: 'YCSetup1',
+      component: YCSetup1
     },
     {
       path: '/Cold/step2',
-      name: 'YetiColdStartup2',
-      component: YetiColdStartup2
+      name: 'YCSetup2',
+      component: YCSetup2
     },
     {
       path: '/Cold/step3',
-      name: 'YetiColdStartup3',
-      component: YetiColdStartup3
+      name: 'YCSetup3',
+      component: YCSetup3
     },
     {
       path: '/Cold/step4',
-      name: 'YetiColdStartup4',
-      component: YetiColdStartup4
+      name: 'YCSetup4',
+      component: YCSetup4
     },
     {
       path: '/Cold/step6',
-      name: 'YetiColdStartup6',
-      component: YetiColdStartup6
+      name: 'YCSetup6',
+      component: YCSetup6
     },
     {
-      path: '/Cold/Test/step1',
-      name: 'YetiColdTest1',
-      component:  YetiColdTest1
+      path: '/Cold/step6R',
+      name: 'YCSetup6R',
+      component: YCSetup6R
     },
     {
-      path: '/Cold/Test/step2',
-      name: 'YetiColdTest2',
-      component:  YetiColdTest2
+      path: '/Cold/Guide/Step1R',
+      name: 'YCRecover1',
+      component:  YCRecover1
     },
     {
-      path: '/Cold/Test/step3',
-      name: 'YetiColdTest3',
-      component:  YetiColdTest3
+      path: '/Cold/Guide/Step2R',
+      name: 'YCRecover2',
+      component:  YCRecover2
     },
     {
-      path: '/Cold/Recovery/step6',
-      name: 'YetiColdRecoveryStartup6',
-      component: YetiColdRecoveryStartup6
+      path: '/Cold/Guide/step1',
+      name: 'YCTest1',
+      component:  YCTest1
     },
     {
-      path: '/Cold/Guide',
-      name: 'ColdWalletGuide',
-      component: ColdWalletGuide
+      path: '/Cold/Guide/step2',
+      name: 'YCTest2',
+      component:  YCTest2
+    },
+    {
+      path: '/Cold/Guide/step3',
+      name: 'YCTest3',
+      component:  YCTest3
     },
     {
       path: '/Warm/step1',
-      name: 'YetiWarmStartup1',
-      component: YetiWarmStartup1
+      name: 'YWSetup1',
+      component: YWSetup1
     },
     {
       path: '/Warm/step2',
-      name: 'YetiWarmStartup2',
-      component: YetiWarmStartup2
+      name: 'YWSetup2',
+      component: YWSetup2
     },
     {
       path: '/Warm/step3',
-      name: 'YetiWarmStartup3',
-      component: YetiWarmStartup3
+      name: 'YWSetup3',
+      component: YWSetup3
     },
     {
       path: '/Warm/step4',
-      name: 'YetiWarmStartup4',
-      component: YetiWarmStartup4
+      name: 'YWSetup4',
+      component: YWSetup4
     },
-     {
+    {
+      path: '/Warm/Guide/step1',
+      name: 'YWTest1',
+      component:  YWTest1
+    },
+    {
+      path: '/Warm/Test/step2',
+      name: 'YWTest2',
+      component:  YWTest2
+    },
+    {
+      path: '/Warm/Test/step3',
+      name: 'YWTest3',
+      component:  YWTest3
+    },
+    {
+      path: '/Warm/Guide/Step1R',
+      name: 'YWRecover1',
+      component:  YWRecover1
+    },
+    {
+      path: '/Warm/Guide/Step2R',
+      name: 'YWRecover2',
+      component:  YWRecover2
+    },
+    {
       path: '/Hot/step1',
-      name: 'YetiHotStartup1',
-      component: YetiHotStartup1
+      name: 'YHSetup1',
+      component: YHSetup1
     },
     {
       path: '/Hot/step2',
-      name: 'YetiHotStartup2',
-      component: YetiHotStartup2
+      name: 'YHSetup2',
+      component: YHSetup2
     },
     {
       path: '/Hot/step3',
-      name: 'YetiHotStartup3',
-      component: YetiHotStartup3
+      name: 'YHSetup3',
+      component: YHSetup3
     },
     {
       path: '/Hot/step4',
-      name: 'YetiHotStartup4',
-      component: YetiHotStartup4
-    },
-     {
-      path: '/BCO/step1',
-      name: 'BitcoinCoreOfflineStartup1',
-      component: BitcoinCoreOfflineStartup1
+      name: 'YHSetup4',
+      component: YHSetup4
     },
     {
-      path: '/BCO/step2',
-      name: 'BitcoinCoreOfflineStartup2',
-      component: BitcoinCoreOfflineStartup2
+      path: '/Hot/Guide/step1',
+      name: 'YHTest1',
+      component:  YHTest1
     },
     {
-      path: '/BCO/step3',
-      name: 'BitcoinCoreOfflineStartup3',
-      component: BitcoinCoreOfflineStartup3
+      path: '/Hot/Test/step2',
+      name: 'YHTest2',
+      component:  YHTest2
     },
     {
-      path: '/BCO/step4',
-      name: 'BitcoinCoreOfflineStartup4',
-      component: BitcoinCoreOfflineStartup4
+      path: '/Hot/Test/step3',
+      name: 'YHTest3',
+      component:  YHTest3
     },
     {
-      path: '/BCO/step5',
-      name: 'BitcoinCoreOfflineStartup5',
-      component: BitcoinCoreOfflineStartup5
+      path: '/Hot/Guide/Step1R',
+      name: 'YHRecover1',
+      component:  YHRecover1
     },
     {
-      path: '/BCO/step6',
-      name: 'BitcoinCoreOfflineStartup6',
-      component: BitcoinCoreOfflineStartup6
+      path: '/Hot/Guide/Step2R',
+      name: 'YHRecover2',
+      component:  YHRecover2
     }
   ]
 })

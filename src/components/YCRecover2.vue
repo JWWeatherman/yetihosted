@@ -1,11 +1,11 @@
 <template>
   <div>
-    <navbarhot></navbarhot>
+    <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 3: Encrypt and Erase your hard drive</h2>
+      <h2 style="margin-bottom:35px;">Erase your hard drive on your Secondary Laptop</h2>
       <p>Now we are going to encrypt and erase the hard drive that stores your private keys on your <b>Secondary</b> laptop.</p>
       <ol>
-        <li>Click the drop down menu in the top right corner and then click <b>Power Off</b>.</li>
+        <li>Power off your <b>Secondary laptop</b>.</li>
         <li>Insert the usb drive you used to install Ubuntu.</li>
         <li>Boot up your laptop and click <b>Try Ubuntu</b>.</li>
         <li>Insert your "Transfer" usb and copy the "erase.txt" file to the "Documents" folder.</li>
@@ -28,26 +28,18 @@
         <div class="card mb-3" style="width: 50%;">
           <img class="card-img-top" src="@/assets/terminal3.png" alt="Card image cap">
         </div>
-        <li>Your hard drive has now been erased. On the desktop click the desktop shortcut to install ubuntu.</li>
-<!--         <li>Once your laptop has been reinstalled with ubuntu click <b>Next</b>.</li>
- -->      </ol>
-<!--       <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">
- -->    </div>
+        <li>Your hard drive has now been erased. If you don't want to keep your Primary laptop as a watch only repeat steps 1 to 15</li>
+      </ol>
+      <p>Once both laptops has been erased, you have finished.</p>
+    </div>
   </div>
 </template>
 
 <script>
-import navbarhot from './navbarhot'
-import hwg from './HotWalletGuide'
+import navbarcold from './navbarcold'
 export default {
-  methods: {
-    click () {
-      this.$router.push({path: '/Hot/Test/step3'})
-    }
-  },
   components: {
-    navbarcold,
-    hwg
+    navbarcold
   }
 }
 </script>

@@ -46,19 +46,24 @@ export default {
     }else if (host === 'ONE.YETICOLD.COM') {
       this.$router.push({path: '/Hot/step4'})
     }else if (host === 'REC.YETICOLD.COM') {
-      this.$router.push({path: '/Cold/Recovery/step6'})
+      this.$router.push({path: '/Cold/step6R'})
     }else if (host === 'DISC.YETICOLD.COM') {
       this.$router.push({path: '/Cold/step6'})
     }else if (host === 'GUIDE3.YETICOLD.COM') {
-      this.$router.push({path: '/Cold/Test/step1'})
+      this.$router.push({path: '/Cold/Guide/step1'})
+    }else if (host === 'GUIDE2.YETICOLD.COM') {
+      this.$router.push({path: '/Warm/Guide/step1'})
+    }else if (host === 'GUIDE1.YETICOLD.COM') {
+      this.$router.push({path: '/Hot/Guide/step1'})
     }else if (host === 'LOAD.YETICOLD.COM') {
       this.$router.push({path: '/Cold/Load1'})
+    }else if (host === 'CORE3.YETICOLD.COM') {
+      this.$router.push({path: '/Cold/Guide/step1R'})
+    }else if (host === 'CORE2.YETICOLD.COM') {
+      this.$router.push({path: '/Warm/Guide/step1R'})
+    }else if (host === 'CORE1.YETICOLD.COM') {
+      this.$router.push({path: '/Hot/Guide/step1R'})
     }
-    // else if (host === 'BCO.YETICOLD.COM') {
-    //   this.$router.push({path: '/BCO/step4'})
-    // }else if (host === 'OFF.YETICOLD.COM') {
-    //   this.$router.push({path: '/BCO/step6'})
-    // }
   },
   methods: {
     Utils () {

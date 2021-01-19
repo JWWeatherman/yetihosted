@@ -1,8 +1,9 @@
+</script>
 <template>
   <div>
-    <navbarcold></navbarcold>
+    <navbarwarm></navbarwarm>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 3: Encrypt and Erase your hard drive</h2>
+      <h2 style="margin-bottom:35px;">Step 17: Encrypt and Erase your hard drive</h2>
       <p>Now we are going to encrypt and erase the hard drive that stores your private keys on your <b>Secondary</b> laptop.</p>
       <ol>
         <li>Power off your <b>Secondary laptop</b>.</li>
@@ -29,25 +30,19 @@
           <img class="card-img-top" src="@/assets/terminal3.png" alt="Card image cap">
         </div>
         <li>Your hard drive has now been erased. On the desktop click the desktop shortcut to install ubuntu.</li>
-<!--         <li>Once your laptop has been reinstalled with ubuntu click <b>Next</b>.</li>
- -->      </ol>
-<!--       <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">
- -->    </div>
+      </ol>
+      <wwg></wwg>
+    </div>
   </div>
 </template>
 
 <script>
-import navbarcold from './navbarcold'
-import cwg from './ColdWalletGuide'
+import navbarwarm from './navbarwarm'
+import wwg from './WWG'
 export default {
-  methods: {
-    click () {
-      this.$router.push({path: '/Cold/Test/step3'})
-    }
-  },
   components: {
-    navbarcold,
-    cwg
+    navbarwarm,
+    wwg 
   }
 }
 </script>
