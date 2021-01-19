@@ -132,12 +132,12 @@ export default new Router({
       component:  YWTest1
     },
     {
-      path: '/Warm/Test/step2',
+      path: '/Warm/Guide/step2',
       name: 'YWTest2',
       component:  YWTest2
     },
     {
-      path: '/Warm/Test/step3',
+      path: '/Warm/Guide/step3',
       name: 'YWTest3',
       component:  YWTest3
     },
@@ -177,12 +177,12 @@ export default new Router({
       component:  YHTest1
     },
     {
-      path: '/Hot/Test/step2',
+      path: '/Hot/Guide/step2',
       name: 'YHTest2',
       component:  YHTest2
     },
     {
-      path: '/Hot/Test/step3',
+      path: '/Hot/Guide/step3',
       name: 'YHTest3',
       component:  YHTest3
     },
