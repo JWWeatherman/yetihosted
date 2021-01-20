@@ -8,7 +8,7 @@
         <li>Power off your <b>Secondary laptop</b>.</li>
         <li>Insert the usb drive you used to install Ubuntu.</li>
         <li>Boot up your laptop and click <b>Try Ubuntu</b>.</li>
-        <li>Insert your "Transfer" usb and copy the "erase.txt" file to the "Documents" folder.</li>
+        <li>Insert the usb drive labeled "Transfer" usb and copy the "erase.txt" file to the "Documents" folder.</li>
         <li>Click on the <b>nine dots</b> in the bottom left corner and open <b>Terminal</b>.</li>
         <li>Open the "erase.txt" file stored in the "Documents" folder and copy the first command.</li>
         <li>Paste the text in the terminal and hit <b>Enter</b>.</li>
