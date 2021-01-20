@@ -44,7 +44,7 @@
       <div class="card my-5" style="width: 50%;">
         <div class="card-body">
           <h3>Step 3: Enable Coin Control</h3> 
-          <p class="card-text">Make sure the "Enable Coin Control features" is checked (). Then click "Ok".</p>
+          <p class="card-text">Make sure the "Enable Coin Control features" is checked. Then click "Ok".</p>
         </div>
         <img class="card-img-top" src="@/assets/CC3.png" alt="Card image cap">
       </div>
@@ -109,7 +109,6 @@
           <h3>Step 12: Copy the PSBT to your USB drive</h3> 
           <ol>
             <li>Insert the USB drive labeled "Transfer" to your <b>Primary Laptop</b>.</li>
-            <li>Delete all ".psbt" files if they exist.</li>
             <li>Copy the file labeled "unsigned.psbt" to the inserted USB drive. The file is located in your "Documents" folder.</li>
             <li>Eject the USB drive.</li>
           </ol>
