@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 34: Erase your hard drive on your Secondary Laptop</h2>
+      <h2>Step 34: Erase your hard drive on your Secondary Laptop</h2>
       <p>Now we are going to encrypt and erase the hard drive that stores your private keys on your <b>Secondary</b> laptop.</p>
       <ol>
         <li>Power off your <b>Secondary laptop</b>.</li>
