@@ -28,7 +28,7 @@
         </div>
         <li>Your hard drive has now been erased. If you don't want to keep your Primary laptop as a watch only repeat steps 1 to 13</li>
       </ol>
-      <p>Once both laptops has been erased you completed setting up your yeti cold storage.</p>
+      <p>Once both laptops has been erased you completed setting up your Yeti Bitcoin Wallet.</p>
     </div>
   </div>
 </template>
