@@ -116,7 +116,7 @@
       </div> 
       <div class="card my-5" style="width: 50%;">
         <div class="card-body">
-          <h3>Step 13: Copy the PSBT to your <b>Secondary Laptop</b></h3> 
+          <h3>Step 13: Copy the PSBT to your Secondary Laptop</h3> 
           <ol>
             <li>Insert the USB drive labeled "Transfer" to your <b>Secondary Laptop</b>.</li>
             <li>Copy the file labeled "unsigned.psbt" to the "Documents" Folder. The file is located in your USB drive.</li>
