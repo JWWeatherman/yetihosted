@@ -4,7 +4,7 @@
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Receive: Step 1</h3> 
-          <p class="card-text">In the Bitcoin Core application on your <b>Online Laptop</b> click the <b>Receive</b> button in the menu bar.</p>
+          <p class="card-text">In the Bitcoin Core application on your <b>Primary Laptop</b> click the <b>Receive</b> button in the menu bar.</p>
         </div>
         <img class="card-img-top" src="@/assets/Receive1.png" alt="Card image cap">
       </div>
@@ -26,7 +26,7 @@
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Send: Step 1</h3> 
-          <p class="card-text">In the Bitcoin core application on your Online Laptop open up <b>settings</b> > <b>options</b> (outlined in red).</p>
+          <p class="card-text">In the Bitcoin core application on your <b>Primary Laptop</b> open up <b>settings</b> > <b>options</b> (outlined in red).</p>
         </div>
         <img class="card-img-top" src="@/assets/CC1.png" alt="Card image cap">
       </div>
@@ -105,7 +105,7 @@
         <div class="card-body">
           <h3>Send: Step 12</h3> 
           <ol>
-            <li>Insert the USB drive labeled "Transfer" to your <b>Online Laptop</b>.</li>
+            <li>Insert the USB drive labeled "Transfer" to your <b>Primary Laptop</b>.</li>
             <li>Delete all ".psbt" files if they exist.</li>
             <li>Copy the file labeled "unsigned.psbt" to the inserted USB drive. The file is located in your "Documents" folder.</li>
             <li>Eject the USB drive.</li>
@@ -116,7 +116,7 @@
         <div class="card-body">
           <h3>Send: Step 83</h3> 
           <ol>
-            <li>Insert the USB drive labeled "Transfer" to your <b>Offline Laptop</b>.</li>
+            <li>Insert the USB drive labeled "Transfer" to your <b>Secondary Laptop</b>.</li>
             <li>Copy the file labeled "unsigned.psbt" to the "Documents" Folder. The file is located in your USB drive.</li>
             <li>Eject the USB drive.</li>
           </ol>
@@ -161,7 +161,7 @@
         <div class="card-body">
           <h3>Send: Step 19</h3> 
           <ol>
-            <li>Insert the USB drive labeled "Transfer" to your <b>Offline Laptop</b>.</li>
+            <li>Insert the USB drive labeled "Transfer" to your <b>Secondary Laptop</b>.</li>
             <li>Copy the file labeled "signed.psbt" to the inserted USB drive. The file is located in your "Documents" folder.</li>
             <li>Eject the USB drive.</li>
           </ol>
@@ -171,7 +171,7 @@
         <div class="card-body">
           <h3>Send: Step 20</h3> 
           <ol>
-            <li>Insert the USB drive labeled "Transfer" to your <b>Online Laptop</b>.</li>
+            <li>Insert the USB drive labeled "Transfer" to your <b>Primary Laptop</b>.</li>
             <li>Copy the file labeled "signed.psbt" to the "Documents" Folder. The file is located in your USB drive.</li>
             <li>Eject the USB drive.</li>
           </ol>
