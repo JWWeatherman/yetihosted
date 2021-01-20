@@ -1,4 +1,7 @@
 <template>
+  <link rel="icon" 
+      type="image/png" 
+      href="@/assets/logo.png">
   <div>
     <nav class="form-row navbar navbar-light bg-primary">
         <img src="@/assets/logo.png" width="50" height="50" class="align-top" alt="">
