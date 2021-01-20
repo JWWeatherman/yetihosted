@@ -1,4 +1,5 @@
 <template>
+  <link rel="icon" href="@/assets/logo.png">
   <div id="app">
     <router-view/>
   </div>
