@@ -106,6 +106,7 @@
           <h3>Send: Step 12</h3> 
           <ol>
             <li>Insert the USB drive labeled "Transfer" to your <b>Online Laptop</b>.</li>
+            <li>Delete all ".psbt" files if they exist.</li>
             <li>Copy the file labeled "unsigned.psbt" to the inserted USB drive. The file is located in your "Documents" folder.</li>
             <li>Eject the USB drive.</li>
           </ol>
