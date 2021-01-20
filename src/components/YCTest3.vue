@@ -3,7 +3,7 @@
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 34: Erase your Laptops</h2>
-      <p>Erase your Laptops to ensure your bitcoin can only be spent using your seed packets.</p>
+      <p>Erase your Laptops to ensure your Bitcoin can only be spent using your seed packets.</p>
       <ol>
         <li>Power off your <b>Secondary laptop</b>.</li>
         <li>Insert the usb drive you used to install Ubuntu.</li>
