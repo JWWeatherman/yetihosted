@@ -2,6 +2,7 @@
   <div>
     <div class="container" style="margin-top: 3rem;">
       <h1>Receive</h1>
+      <hr>
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Step 1: Open the Receive Tab</h3> 
@@ -19,11 +20,13 @@
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Step 3: Send to address</h3> 
-          <p class="card-text">Confirm that your wallet () shows "yetiwalletpub". You can now send money to the wallet using the QR code or the address displayed bellow it.</p>
+          <p class="card-text">Confirm that your wallet shows "yetiwalletpub". You can now send money to the wallet using the QR code or the address displayed bellow it.</p>
         </div>
         <img class="card-img-top" src="@/assets/Receive3.png" alt="Card image cap">
       </div>
+      <p></p>
       <h1>Send</h1>
+      <hr>
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Step 1: Open the options page</h3> 
