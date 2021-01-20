@@ -182,7 +182,7 @@
       <div class="card my-5" style="width: 50%;">
         <div class="card-body">
           <h3>Step 21: Open the Load PSBT page</h3> 
-          <p class="card-text">In the Bitcoin Core application in the menu bar click <b>file</b> () > <b>Load PSBT from file...</b></p>
+          <p class="card-text">In the Bitcoin Core application in the menu bar click <b>file</b> > <b>Load PSBT from file...</b></p>
         </div>
         <img class="card-img-top" src="@/assets/Send9.png" alt="Card image cap">
       </div>
