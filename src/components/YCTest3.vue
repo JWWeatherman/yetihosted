@@ -17,14 +17,13 @@
           <img class="card-img-top" src="@/assets/terminal1.png" alt="Card image cap">
         </div>
         <li>Open the "erase.txt" file stored in the "Documents" folder and copy the second command.</li>
-        <li>Paste the text in the terminal and hit <b>Enter</b>.</li>
-        <li>You should see an output like below.</li>
+        <li>Paste the text in the terminal and hit <b>Enter</b>. You should see the following output:</li>
         <div class="card mb-3" style="width: 50%;">
           <img class="card-img-top" src="@/assets/terminal2.png" alt="Card image cap">
         </div>
         <li>Open the "erase.txt" file stored in the "Documents" folder and copy the third command.</li>
         <li>Paste the text in the terminal and hit <b>Enter</b>.</li>
-        <li>After a few minutes you should see an output like below.</li>
+        <li>After a few minutes you should see the following output:</li>
         <div class="card mb-3" style="width: 50%;">
           <img class="card-img-top" src="@/assets/terminal3.png" alt="Card image cap">
         </div>
