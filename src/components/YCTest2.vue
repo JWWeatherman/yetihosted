@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 31: Restore your Wallet</h2>
+      <h2 style="margin-bottom:35px;">Step 33: Restore your Wallet</h2>
       <p>Next we are going to restore your wallet with two sets of CDs to make sure you can recover your wallet with any three</p>
       <ol>
         <li>Set aside 3 "Seed" CDs labeled "Seed 1", "Seed 2", and "Seed 3".</li>
