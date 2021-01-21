@@ -13,7 +13,7 @@
           </div>
         </div>          
         <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
-        <li>Once Step 5 is shown, close this tab to continue with Step 5 in the other tab.</li>
+        <li>Yeti will automatically open a new tab that displays step 5.</li>
       </ol>         
     </div>
   </div>
