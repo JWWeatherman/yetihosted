@@ -20,7 +20,7 @@
       <div class="card my-5" style="width: 50%;">
         <div class="card-body">
           <h3>Step 3: Send to address</h3> 
-          <p class="card-text">Confirm that your wallet shows "yetiwalletpub". You can now send money to the wallet using the QR code or the address displayed bellow it.</p>
+          <p class="card-text">Confirm that your wallet shows "yetiwalletpub". You can now send money to the wallet using the QR code or the address displayed below it.</p>
         </div>
         <img class="card-img-top" src="@/assets/Receive3.png" alt="Card image cap">
       </div>

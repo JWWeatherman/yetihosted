@@ -19,7 +19,7 @@
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Step 3: Confirm you are using the correct wallet.</h3> 
-          <p class="card-text">Confirm that your wallet shows "yetiwalletpriv". You can now send money to the wallet using the QR code or the address displayed bellow it.</p>
+          <p class="card-text">Confirm that your wallet shows "yetiwalletpriv". You can now send money to the wallet using the QR code or the address displayed below it.</p>
         </div>
         <img class="card-img-top" src="@/assets/Receive3.png" alt="Card image cap">
       </div>
@@ -83,7 +83,7 @@
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
           <h3>Step 9: Confirm your Transaction was Successfully Sent</h3> 
-          <p class="card-text">You should see this page to confirm the transaction was broad casted.</p>
+          <p class="card-text">You should see this page to confirm the transaction was broadcasted.</p>
         </div>
         <img class="card-img-top" src="@/assets/Send20.png" alt="Card image cap">
       </div>

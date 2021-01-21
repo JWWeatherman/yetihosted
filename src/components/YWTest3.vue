@@ -30,7 +30,6 @@
         </div>
         <li>Your hard drive has now been erased. On the desktop click the desktop shortcut to install ubuntu.</li>
       </ol>
-      <wwg></wwg>
     </div>
   </div>
 </template>

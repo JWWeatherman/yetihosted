@@ -6,7 +6,7 @@
       <p>Follow the bellow guide and send and recieve a small amount to confirm your keys are working correctly, Then click <b>Next</b>.</p>
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-danger" type="submit" id="next" value="Next">
     </div>
-    <cwg></cwg>
+    <hwg></hwg>
   </div>
 </template>
 
