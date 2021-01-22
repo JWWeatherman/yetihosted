@@ -14,7 +14,6 @@
         <li>After you are finished and are ready to erase your laptop and private keys click <b>Next</b>.</li>
       </ol>
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-warning" type="submit" id="next" value="Next">
-      <wwg></wwg>
     </div>
   </div>
 </template>
