@@ -3,7 +3,7 @@
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 32: Send and Receive using bitcoin core</h2>
-      <p>Follow the bellow guide and send and recieve a small amount to confirm your keys are working correctly, Then click <b>Next</b>.</p>
+      <p>Follow the below guide and send and recieve a small amount to confirm your keys are working correctly, Then click <b>Next</b>.</p>
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">
     </div>
     <cwg></cwg>
