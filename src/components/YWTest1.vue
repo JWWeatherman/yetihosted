@@ -3,7 +3,7 @@
     <navbarwarm></navbarwarm>
     <div class="container" style="margin-top: 3rem;">
       <h2 style="margin-bottom:35px;">Step 15: Send and Receive using bitcoin core</h2>
-      <p>Follow the below guide and send and recieve a small amount to confirm your keys are working correctly, Then click <b>Next</b>.</p>
+      <p>Send and receive a small amount to confirm your wallet is working correctly. After you have finished testing click <b>Next</b> to continue.</p>
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-warning" type="submit" id="next" value="Next">
     </div>
     <wwg></wwg>
