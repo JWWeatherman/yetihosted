@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 34: Erase your Laptops</h2>
+      <h2>Step 33: Erase your Laptops</h2>
       <p>Erase your Laptops to ensure your Bitcoin can only be spent using your seed packets.</p>
       <ol>
         <li>Power off your <b>Secondary laptop</b>.</li>
@@ -28,7 +28,7 @@
         </div>
         <li>Your hard drive has now been erased. If you don't want to keep your Primary laptop as a watch only repeat steps 1 to 13</li>
       </ol>
-      <p>Once both laptops has been erased you completed setting up your Yeti Bitcoin Wallet.</p>
+      <p>Once both laptops have been erased you completed setting up your Yeti Bitcoin Wallet.</p>
     </div>
   </div>
 </template>
