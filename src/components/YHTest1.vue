@@ -2,7 +2,7 @@
   <div>
     <navbarhot></navbarhot>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 15: Send and Receive using bitcoin core</h2>
+      <h2 style="margin-bottom:35px;">Step 15: Send and Receive using Bitcoin Core</h2>
       <p>Send and receive a small amount to confirm your wallet is working correctly. After you have finished testing click <b>Next</b> to continue.</p>
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-danger" type="submit" id="next" value="Next">
     </div>

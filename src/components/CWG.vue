@@ -71,8 +71,8 @@
       </div>
       <div class="card my-5" style="width: 50%;">
         <div class="card-body">
-          <h3>Step 7: Enter the Address</h3> 
-          <p class="card-text">Paste in the <b>Pay To</b> and click <b>Create Unsigned</b>.</p>
+          <h3>Step 7: Enter the Address and Amount</h3> 
+          <p class="card-text">Paste the recipients address in the <b>Pay To</b> text box and your an amount in the <b>Amount</b> text box and then click <b>Create Unsigned</b>.</p>
         </div>
         <img class="card-img-top" src="@/assets/CC6.png" alt="Card image cap">
       </div>

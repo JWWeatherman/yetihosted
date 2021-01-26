@@ -21,7 +21,7 @@
           <h3>Step 3: Confirm you are using the correct wallet.</h3> 
           <p class="card-text">Confirm that your wallet shows "yetiwalletpriv". You can now send money to the wallet using the QR code or the address displayed below it.</p>
         </div>
-        <img class="card-img-top" src="@/assets/Receive3.png" alt="Card image cap">
+        <img class="card-img-top" src="@/assets/Receive3Warm.png" alt="Card image cap">
       </div>
       <h1>Send</h1>
       <div class="card mb-3" style="width: 50%;">
@@ -68,8 +68,8 @@
       </div>
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
-          <h3>Step 7: Enter the recipients address</h3> 
-          <p class="card-text">Paste in your recipient address into the <b>Pay To</b> text box. Then click <b>Send</b>.</p>
+          <h3>Step 7: Enter the recipients address and set an amount</h3> 
+          <p class="card-text">Paste in your recipient address into the <b>Pay To</b> text box, and then enter an amount into the <b>Amount</b> text box. Then click <b>Send</b>.</p>
         </div>
         <img class="card-img-top" src="@/assets/WarmSend1.png" alt="Card image cap">
       </div>
@@ -79,13 +79,6 @@
           <p class="card-text">Review your transaction then click on the <b>Send</b> button.</p>
         </div>
         <img class="card-img-top" src="@/assets/HotSend2.png" alt="Card image cap">
-      </div>
-      <div class="card mb-3" style="width: 50%;">
-        <div class="card-body">
-          <h3>Step 9: Confirm your Transaction was Successfully Sent</h3> 
-          <p class="card-text">You should see this page to confirm the transaction was broadcasted.</p>
-        </div>
-        <img class="card-img-top" src="@/assets/Send20.png" alt="Card image cap">
       </div>
     </div>
   </div>
