@@ -3,9 +3,9 @@
     <navbarwarm></navbarwarm>
     <div class="container" style="margin-top: 3rem;">
       <h2 style="margin-bottom:35px;">Step 17: Encrypt and Erase your hard drive</h2>
-      <p>Now we are going to encrypt and erase the hard drive that stores your private keys on your <b>Secondary</b> laptop.</p>
+      <p>Now we are going to encrypt and erase the hard drive that stores your private keys.</p>
       <ol>
-        <li>Power off your <b>Secondary laptop</b>.</li>
+        <li>Power off your <b>Ubuntu Laptop</b>.</li>
         <li>Insert the usb drive you used to install Ubuntu.</li>
         <li>Boot up your laptop and click <b>Try Ubuntu</b>.</li>
         <li>Insert your "Transfer" usb and copy the "erase.txt" file to the "Documents" folder.</li>
