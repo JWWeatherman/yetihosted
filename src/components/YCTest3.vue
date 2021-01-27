@@ -26,7 +26,7 @@
         <div class="card mb-3" style="width: 50%;">
           <img class="card-img-top" src="@/assets/terminal3.png" alt="Card image cap">
         </div>
-        <li>Your hard drive has now been erased. If you don't want to keep your Primary laptop as a watch only repeat steps 1 to 13</li>
+        <li>Your laptop has now been erased. If you don't want to keep your Primary laptop as a watch-only device repeat steps 1 to 13 using your Primary laptop.</li>
       </ol>
       <p>Once both laptops have been erased you completed setting up your Yeti Bitcoin Wallet.</p>
     </div>

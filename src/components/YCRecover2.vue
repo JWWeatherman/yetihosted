@@ -30,7 +30,7 @@
         </div>
         <li>Your hard drive has now been erased. If you don't want to keep your Primary laptop as a watch only repeat steps 1 to 15</li>
       </ol>
-      <p>Once both laptops has been erased, you have finished.</p>
+      <p>Once both laptops have been erased, you have finished Yeti Level 3 setup.</p>
     </div>
   </div>
 </template>
