@@ -10,6 +10,7 @@ import YCSetup6R from '@/components/YCSetup6R'
 import YCTest1 from '@/components/YCTest1'
 import YCTest2 from '@/components/YCTest2'
 import YCTest3 from '@/components/YCTest3'
+import YCTest4 from '@/components/YCTest4'
 import YCRecover1 from '@/components/YCRecover1'
 import YCRecover2 from '@/components/YCRecover2'
 import YWSetup1 from '@/components/YWSetup1'
@@ -19,6 +20,7 @@ import YWSetup4 from '@/components/YWSetup4'
 import YWTest1 from '@/components/YWTest1'
 import YWTest2 from '@/components/YWTest2'
 import YWTest3 from '@/components/YWTest3'
+import YWTest4 from '@/components/YWTest4'
 import YWRecover1 from '@/components/YWRecover1'
 import YWRecover2 from '@/components/YWRecover2'
 import YHSetup1 from '@/components/YHSetup1'
@@ -28,6 +30,7 @@ import YHSetup4 from '@/components/YHSetup4'
 import YHTest1 from '@/components/YHTest1'
 import YHTest2 from '@/components/YHTest2'
 import YHTest3 from '@/components/YHTest3'
+import YHTest4 from '@/components/YHTest4'
 import YHRecover1 from '@/components/YHRecover1'
 import YHRecover2 from '@/components/YHRecover2'
 import erase from '@/components/erase'
@@ -148,6 +151,11 @@ export default new Router({
       component:  YWTest3
     },
     {
+      path: '/Warm/Guide/step4',
+      name: 'YWTest4',
+      component:  YWTest4
+    },
+    {
       path: '/Warm/Guide/Step1R',
       name: 'YWRecover1',
       component:  YWRecover1
@@ -191,6 +199,11 @@ export default new Router({
       path: '/Hot/Guide/step3',
       name: 'YHTest3',
       component:  YHTest3
+    },
+    {
+      path: '/Hot/Guide/step4',
+      name: 'YHTest4',
+      component:  YHTest4
     },
     {
       path: '/Hot/Guide/Step1R',
