@@ -116,6 +116,11 @@ export default new Router({
       component:  YCTest3
     },
     {
+      path: '/Cold/Guide/step4',
+      name: 'YCTest4',
+      component:  YCTest4
+    },
+    {
       path: '/Warm/step1',
       name: 'YWSetup1',
       component: YWSetup1
