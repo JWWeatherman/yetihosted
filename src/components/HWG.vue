@@ -21,7 +21,7 @@
           <h3>Step 3: Confirm you have the correct wallet selected</h3> 
           <p class="card-text">Confirm that your wallet shows "yetiwallethot". You can now send money to the wallet using the QR code or the address displayed below it.</p>
         </div>
-        <img class="card-img-top" src="@/assets/Receive3.png" alt="Card image cap">
+        <img class="card-img-top" src="@/assets/Receive3Hot.png" alt="Card image cap">
       </div>
       <h1>Send</h1>
       <div class="card mb-3" style="width: 50%;">

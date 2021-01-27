@@ -55,8 +55,8 @@ export default {
       this.$router.push({path: '/Warm/Guide/step1'})
     }else if (host === 'GUIDE1.YETICOLD.COM') {
       this.$router.push({path: '/Hot/Guide/step1'})
-    }else if (host === 'LOAD.YETICOLD.COM') {
-      this.$router.push({path: '/Cold/Load1'})
+    }else if (host === 'ERASE.YETICOLD.COM') {
+      this.$router.push({path: '/erase'})
     }else if (host === 'CORE3.YETICOLD.COM') {
       this.$router.push({path: '/Cold/Guide/step1R'})
     }else if (host === 'CORE2.YETICOLD.COM') {

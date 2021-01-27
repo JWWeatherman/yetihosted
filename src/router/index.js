@@ -30,6 +30,7 @@ import YHTest2 from '@/components/YHTest2'
 import YHTest3 from '@/components/YHTest3'
 import YHRecover1 from '@/components/YHRecover1'
 import YHRecover2 from '@/components/YHRecover2'
+import erase from '@/components/erase'
 
 
 
@@ -50,6 +51,11 @@ export default new Router({
       path: '/',
       name: 'Overview',
       component: Overview
+    },
+    {
+      path: '/erase',
+      name: 'erase',
+      component: erase
     },
     {
       path: '/Cold/step1',
