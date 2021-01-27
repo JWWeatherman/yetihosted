@@ -28,7 +28,7 @@
         <div class="card mb-3" style="width: 50%;">
           <img class="card-img-top" src="@/assets/terminal3.png" alt="Card image cap">
         </div>
-        <li>Your hard drive has now been erased. On the desktop click the desktop shortcut to install ubuntu.</li>
+        <li>Your hard drive has now been erased and you have completed Yeti Level 2 setup..</li>
       </ol>
     </div>
   </div>

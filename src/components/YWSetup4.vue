@@ -2,7 +2,7 @@
   <div>
     <navbarwarm></navbarwarm>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 4: Download Yeti to your laptop</h2>
+      <h2>Step 4: Download Yeti to Your Laptop</h2>
       <ol>
         <li>On your laptop click on the <b>9 Dots</b> in the bottom left corner of your Ubuntu desktop and then click <b>Terminal</b>.</li>
         <li>Click <b>Copy</b> to copy the text below this line.</li>
@@ -13,7 +13,7 @@
           </div>
         </div>          
         <li>In the terminal window right click and select <b>Paste</b> and then click <b>Enter</b>.</li>
-        <li>Once Step 5 is shown, close this tab to continue with Step 5 in the other tab.</li>
+        <li>Yeti will automatically open a new tab that displays step 5.</li>
       </ol>      
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-warning" type="submit" id="next" value="Next">
     </div>
