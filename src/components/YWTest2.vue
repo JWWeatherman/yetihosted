@@ -26,8 +26,7 @@ export default {
     }
   },
   components: {
-    navbarwarm,
-    wwg 
+    navbarwarm
   }
 }
 </script>
