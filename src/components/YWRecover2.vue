@@ -2,8 +2,8 @@
   <div>
     <navbarwarm></navbarwarm>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Encrypt and Erase your hard drive</h2>
-      <p>Now we are going to encrypt and erase the hard drive on your laptop.</p>
+      <h2 style="margin-bottom:35px;">Erase your e</h2>
+      <p>Erase your laptop to ensure you can only spend with access to your seed packets.</p>
       <ol>
         <li>Power off your <b>Secondary laptop</b>.</li>
         <li>Insert the usb drive you used to install Ubuntu.</li>
@@ -28,7 +28,7 @@
         <div class="card mb-3" style="width: 50%;">
           <img class="card-img-top" src="@/assets/terminal3.png" alt="Card image cap">
         </div>
-        <li>Your hard drive has now been erased and you have completed Yeti Level 2 setup..</li>
+        <li>Your laptop has been erased and you have completed Yeti Level 2 setup.</li>
       </ol>
     </div>
   </div>

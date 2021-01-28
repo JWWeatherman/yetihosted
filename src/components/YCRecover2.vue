@@ -2,8 +2,8 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Erase your hard drive on your Secondary Laptop</h2>
-      <p>Now we are going to encrypt and erase the hard drive that stores your private keys on your <b>Secondary</b> laptop.</p>
+      <h2 style="margin-bottom:35px;">Erase your Laptops</h2>
+      <p>Erase your laptops to ensure that you can only spend with access to your seed packets.</p>
       <ol>
         <li>Power off your <b>Secondary laptop</b>.</li>
         <li>Insert the usb drive you used to install Ubuntu.</li>
@@ -28,9 +28,9 @@
         <div class="card mb-3" style="width: 50%;">
           <img class="card-img-top" src="@/assets/terminal3.png" alt="Card image cap">
         </div>
-        <li>Your hard drive has now been erased. If you don't want to keep your Primary laptop as a watch only repeat steps 1 to 15</li>
+        <li>Your laptop has been erased. If you don't want to keep your Primary laptop as a watch only repeat steps 1 to 15 using your Primary laptop.</li>
+        <li>When both laptops have been erased you have completed Yeti Level 3 setup.</li>
       </ol>
-      <p>Once both laptops have been erased, you have finished Yeti Level 3 setup.</p>
     </div>
   </div>
 </template>
