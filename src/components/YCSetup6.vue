@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 6: Set up Yeti on your <b>Secondary</b> Laptop</h2>
+      <h2>Step 6: Set up Yeti on your <b>Secondary</b> Laptop</h2>
       <ol>
         <li>On your <b>Secondary</b> laptop click on the <b>9 Dots</b> in the bottom left corner of your Ubuntu desktop and then click <b>Terminal</b>.</li>
         <li>Click <b>Copy</b> to copy the text below this line.</li>

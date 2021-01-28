@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 3: Erase your hard drive on your Ubuntu Laptop</h2>
+      <h2>Step 3: Erase your hard drive on your Ubuntu Laptop</h2>
       <p>Now we are going to encrypt and erase the hard drive that stores your private keys on your <b>Ubuntu Laptop</b>.</p>
       <ol>
         <li>Power off your <b>Ubuntu laptop</b>.</li>

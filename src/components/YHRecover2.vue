@@ -2,7 +2,7 @@
   <div>
     <navbarhot></navbarhot>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Erase your Laptop</h2>
+      <h2>Erase your Laptop</h2>
       <p>Erase your laptop to ensure you can only spend with access to your seed packets.</p>
       <ol>
         <li>Click the drop down menu in the top right corner and then click <b>Power Off</b>.</li>

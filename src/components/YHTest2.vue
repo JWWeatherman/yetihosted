@@ -2,7 +2,7 @@
   <div>
     <navbarhot></navbarhot>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 16: Restore your Wallet</h2>
+      <h2>Step 16: Restore your Wallet</h2>
       <p>Restore your wallet with one of your CDs to make sure you can recover your wallet.</p>
       <ol>
         <li>Restart Yeti on your laptop by clicking on the <b>nine dots</b> in the bottom left corner and open <b>Level One</b>.</li>

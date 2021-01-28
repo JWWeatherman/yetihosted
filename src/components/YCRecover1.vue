@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Send and Receive Using Bitcoin Core</h2>
+      <h2>Send and Receive Using Bitcoin Core</h2>
       <p>Send and receive using bitcoin core. When you are finished click <b>Next</b> to erase your laptop.</p>
       <input v-on:click="click" class="btn btn-primary" type="submit" id="next" value="Next">
       <cwg></cwg>

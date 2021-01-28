@@ -2,7 +2,7 @@
   <div>
     <navbarwarm></navbarwarm>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Step 18: Erase your Laptop</h2>
+      <h2>Step 18: Erase your Laptop</h2>
       <p>Erase your Laptop to ensure your Bitcoin can only be spent using your seed packets.</p>
        <ol>
           <li>Power off your Ubuntu laptop</b>.</li>

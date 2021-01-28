@@ -2,7 +2,7 @@
   <div>
     <navbarcold></navbarcold>
     <div class="container" style="margin-top: 3rem;">
-      <h2 style="margin-bottom:35px;">Erase your Laptops</h2>
+      <h2>Erase your Laptops</h2>
       <p>Erase your laptops to ensure that you can only spend with access to your seed packets.</p>
       <ol>
         <li>Power off your <b>Secondary laptop</b>.</li>
