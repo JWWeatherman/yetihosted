@@ -1,9 +1,9 @@
 <template>
   <div>
-    <navbarcold></navbarcold>
+    <navbarall></navbarall>
     <div class="container" style="margin-top: 3rem;">
-      <h2>Step 3: Erase your hard drive on your Ubuntu Laptop</h2>
-      <p>Now we are going to encrypt and erase the hard drive that stores your private keys on your <b>Ubuntu Laptop</b>.</p>
+      <h2>Step 3: Erase your Laptop</h2>
+      <p>Erase your laptop to ensure that you can only spend with access to your seed packets.</p>
       <ol>
         <li>Power off your <b>Ubuntu laptop</b>.</li>
         <li>Insert the usb drive you used to install Ubuntu.</li>
@@ -28,7 +28,7 @@
         <div class="card mb-3" style="width: 50%;">
           <img class="card-img-top" src="@/assets/terminal3.png" alt="Card image cap">
         </div>
-        <li>Your hard drive has now been erased. Repeat steps 1 through 15 to erase another laptop.</li>
+        <li>Your laptop has been erased.</li>
       </ol>
     </div>
   </div>
