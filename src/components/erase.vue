@@ -35,10 +35,10 @@
 </template>
 
 <script>
-import navbarcold from './navbarcold'
+import navbarall from './navbarall'
 export default {
   components: {
-    navbarcold
+    navbarall
   }
 }
 </script>
