@@ -68,8 +68,8 @@
       </div>
       <div class="card mb-3" style="width: 50%;">
         <div class="card-body">
-          <h3>Step 7: Enter the recipients address</h3> 
-          <p class="card-text">Paste in your recipient address into the <b>Pay To</b> text box, Then click <b>Send</b>.</p>
+          <h3>Step 7: Create the Transaction</h3> 
+          <p class="card-text">Paste the recipients address in the <b>Pay To</b> text box, then click <b>Use avaliable balance</b>, and check <b>Subtract fee from amount</b>, then click <b>Create Unsigned</b>.</p>
         </div>
         <img class="card-img-top" src="@/assets/WarmSend1.png" alt="Card image cap">
       </div>

@@ -71,8 +71,8 @@
       </div>
       <div class="card my-5" style="width: 50%;">
         <div class="card-body">
-          <h3>Step 7: Enter the Address and Amount</h3> 
-          <p class="card-text">Paste the recipients address in the <b>Pay To</b> text box, then click <b>Create Unsigned</b>.</p>
+          <h3>Step 7: Create the Transaction</h3> 
+          <p class="card-text">Paste the recipients address in the <b>Pay To</b> text box, then click <b>Use avaliable balance</b>, and check <b>Subtract fee from amount</b>, then click <b>Create Unsigned</b>.</p>
         </div>
         <img class="card-img-top" src="@/assets/CC6.png" alt="Card image cap">
       </div>

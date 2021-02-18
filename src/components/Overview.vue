@@ -6,6 +6,7 @@
     </nav>
     <div class="container" style="margin-top: 3rem;">
       <h2></h2>
+      <p>Yeti has recived over $50,000 in donations.</p>
       <div class="hero-unit">
           <h1>Yeti Level 3 Wallet</h1>
           <p>Level 3 is recommended for more than $50,000 USD worth of Bitcoin. It is a 3 of 7 HD Multisig setup where private keys are never on an Internet connected device.</p>
@@ -29,7 +30,10 @@
       </div>
       <!-- <a style="margin-top:30px;margin-bottom:30px;color:#585858;text-decoration: underline;" href="" v-on:click="Utils">Yeti Utilities</a> -->
       <p></p>
+      <p style="color:light-gray;">To verify this webpage click<a href="https://github.com/JWWeatherman/yeticold">here</a></p>
       <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub Repo.</p>
+      <p style="color:light-gray;">For the README click <a href="https://github.com/JWWeatherman/yeticold/blob/master/README.md">here</a></p>
+      <p style="color:light-gray;">For the FAQ click <a href="https://github.com/JWWeatherman/yeticold/blob/master/FAQ.md">here</a></p>
     </div>
   </div>
 </template>

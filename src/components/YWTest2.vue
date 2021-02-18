@@ -6,7 +6,7 @@
        <p>Restore your wallet with two sets of CDs to make sure you can recover your wallet with any three.</p>
        <ol>
             <li>Set aside the three seed CDs labeled "Seed 1," "Seed 2," and "Seed 3."</li>
-            <li>Restart Yeti on you <b>Primary</b> by clicking on the <b>nine dots</b> in the bottom left corner and click the <b>Level Three</b> icon.</li>
+            <li>Restart Yeti on you Laptop by clicking on the <b>nine dots</b> in the bottom left corner and click the <b>Level Two</b> icon.</li>
             <li>Click <b>Recover Wallet</b> and follow all the steps until you have tested sending and receiving a small amount of bitcoin using these seeds. Be sure that when it asks you to import your seeds use the three CDs you set aside.</li>
             <li>After you have sent and received a small amount, but <b>before you erase your laptop</b>, repeat steps 2 through 4 with the CDs labeled "Seed 4," "Seed 5", and "Seed 6."</li>
             <li>When you have finished testing your restored wallet click <b>Next</b> to continue.</li>
