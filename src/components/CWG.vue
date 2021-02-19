@@ -64,8 +64,8 @@
       </div>
       <div class="card my-5" style="width: 50%;">
         <div class="card-body">
-          <h3>Step 6: Select UTXOs</h3> 
-          <p class="card-text">Select the UTXO you wish to spend and then click <b>OK</b>.</p>
+          <h3>Step 6: Select the UTXOs you wish to send</h3> 
+          <p class="card-text">Your UTXOs will be listed here displaying there amount, Select the UTXOs you wish to send and then click <b>OK</b>. You must send the full amount in the UTXO.</p>
         </div>
         <img class="card-img-top" src="@/assets/CC5.png" alt="Card image cap">
       </div>
