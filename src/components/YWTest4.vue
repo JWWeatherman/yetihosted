@@ -4,6 +4,7 @@
     <div class="container" style="margin-top: 3rem;">
       <h2>Step 18: Erase your Laptop</h2>
       <p>Erase your Laptop to ensure your Bitcoin can only be spent using your seed packets.</p>
+      <p>If you would like to keep this laptop as a watch-only wallet click here to learn how to secure you laptop.</p>
        <ol>
           <li>Power off your Ubuntu laptop</b>.</li>
           <li>Insert the usb drive you used to install Ubuntu.</li>

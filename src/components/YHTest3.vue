@@ -9,7 +9,7 @@
         <li>In each envelope place a seed CD.</li>
         <li>Store the envelopes in places such as home and office safes, lawyers offices, accountant offices, safety deposit boxes and trusted friends or family members.</li>
         <li>Lawyers and Accountants regularly store important documents for customers without charging a fee. Even if you need to pay for an unnecessary review of your books or your existing will to create a new relationship with a lawyer or accountant the annual cost to have these documents safely stored and handed over to your loved ones if you die is very cheap.</li>
-        <li>Ensure that you distribute your seed packets geographically so that you will be able to recover at least 3 after a major natural disaster.</li>
+        <li>Ensure that you distribute your seed packets geographically so that you will be able to recover at least 1 after a major natural disaster.</li>
         <li>Do not tell anyone storing these envelopes that they are bitcoin related. Anyone storing these documents should believe they are important, but do not offer a thief financial rewards.</li>
         <li>Consider that someone needs to have only one seed packets to spend your bitcoin.</li>
         <li><b>After</b> you have secured your seed packets <b>offsite</b> deposit the funds you wish to secure in your Yeti Wallet and then click <b>Next</b> to continue.</li>
