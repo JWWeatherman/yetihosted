@@ -6,7 +6,8 @@
     </nav>
     <div class="container" style="margin-top: 3rem;">
       <h2></h2>
-      <div class="hero-unit">
+<!--       <p>Yeti has recived over $50,000 in donations.</p>
+ -->      <div class="hero-unit">
           <h1>Yeti Level 3 Wallet</h1>
           <p>Level 3 is recommended for more than $50,000 USD worth of Bitcoin. It is a 3 of 7 HD Multisig setup where private keys are never on an Internet connected device.</p>
           <p>
@@ -27,10 +28,13 @@
             <input v-on:click="Hot" style="margin-bottom:50px;" class="btn btn-danger btn-large" type="submit" id="next" value="Level 1">
           </p>
       </div>
-      <a style="margin-top:30px;margin-bottom:30px;color:#585858;text-decoration: underline;" href="" v-on:click="Utils">Yeti Utilities</a>
+      <!-- <a style="margin-top:30px;margin-bottom:30px;color:#585858;text-decoration: underline;" href="" v-on:click="Utils">Yeti Utilities</a> -->
       <p></p>
-      <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub Repo.</p>
-    </div>
+<!--       <p style="color:light-gray;">To verify this webpage click<a href="https://github.com/JWWeatherman/yeticold">here</a></p>
+ -->      <p style="color:light-gray;">For more information and the source code click <a href="https://github.com/JWWeatherman/yeticold">here</a> for the GitHub Repo.</p>
+      <p style="color:light-gray;">For the README click <a href="https://github.com/JWWeatherman/yeticold/blob/master/README.md">here</a></p>
+<!--       <p style="color:light-gray;">For the FAQ click <a href="https://github.com/JWWeatherman/yeticold/blob/master/FAQ.md">here</a></p>
+ -->    </div>
   </div>
 </template>
 
@@ -45,18 +49,24 @@ export default {
       this.$router.push({path: '/Warm/step4'})
     }else if (host === 'ONE.YETICOLD.COM') {
       this.$router.push({path: '/Hot/step4'})
-    }else if (host === 'BCO.YETICOLD.COM') {
-      this.$router.push({path: '/BCO/step4'})
     }else if (host === 'REC.YETICOLD.COM') {
-      this.$router.push({path: '/Cold/Recovery/step6'})
+      this.$router.push({path: '/Cold/step6R'})
     }else if (host === 'DISC.YETICOLD.COM') {
       this.$router.push({path: '/Cold/step6'})
-    }else if (host === 'OFF.YETICOLD.COM') {
-      this.$router.push({path: '/BCO/step6'})
     }else if (host === 'GUIDE3.YETICOLD.COM') {
-      this.$router.push({path: '/Cold/Guide'})
-    }else if (host === 'LOAD.YETICOLD.COM') {
-      this.$router.push({path: '/Cold/Load1'})
+      this.$router.push({path: '/Cold/Guide/step1'})
+    }else if (host === 'GUIDE2.YETICOLD.COM') {
+      this.$router.push({path: '/Warm/Guide/step1'})
+    }else if (host === 'GUIDE1.YETICOLD.COM') {
+      this.$router.push({path: '/Hot/Guide/step1'})
+    }else if (host === 'ERASE.YETICOLD.COM') {
+      this.$router.push({path: '/erase'})
+    }else if (host === 'CORE3.YETICOLD.COM') {
+      this.$router.push({path: '/Cold/Guide/step1R'})
+    }else if (host === 'CORE2.YETICOLD.COM') {
+      this.$router.push({path: '/Warm/Guide/step1R'})
+    }else if (host === 'CORE1.YETICOLD.COM') {
+      this.$router.push({path: '/Hot/Guide/step1R'})
     }
   },
   methods: {
