@@ -9,6 +9,7 @@
             <li>An optical drive to write to the CDs. Most laptops come with one built in, but you can also    buy an external optical drive for about $15 on Amazon.</li>
             <li>5 blank CD-R disks. Label each the blank disks "Level One Seed".</li>
             <li>2 USB thumb drives. These will cost about $3 each and will be used to install Ubuntu and to erase your laptop. Label one "Ubuntu" and the other "Transfer."</li>
+            <li>5 full page size envelopes.</li>
         </ul>
       <input v-on:click="click" class="btn btn-danger" type="submit" id="next" value="Next">
       <p></p>
