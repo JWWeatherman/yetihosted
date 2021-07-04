@@ -13,7 +13,7 @@
         <li>Consider distributing your seed packets so that an airline flight is required to spend your bitcoin. This makes physical attacks and extortion attempts less profitable for attackers.</li>
         <li>Do not tell anyone storing these envelopes that they are bitcoin related. Anyone storing these documents should believe they are important, but do not offer a thief financial rewards.</li>
         <li>Consider that someone needs to have 3 seed packets to spend your bitcoin, but only one packet to be able to view your balance and transaction history.</li>
-        <li><b>After</b> you have secured your seed packets <b>offsite</b> deposit the funds you wish to secure in your Yeti Wallet and then click <b>Next</b> to continue.</li>
+        <li><b>After</b> you have secured your seed packets <b>offsite</b> deposit the funds you wish to secure in your Yeti Wallet. Deposits of 1.0 BTC each are recommended. When you are finished click <b>Next</b> to continue.</li>
       </ol>
       <input v-on:click="click" style="margin-top:35px;" class="btn btn-primary" type="submit" id="next" value="Next">
     </div>

@@ -5,6 +5,8 @@
       <h2>Step 34: Erase your Laptops</h2>
       <p>Erase your Laptops to ensure your Bitcoin can only be spent using your seed packets.</p>
       <ol>
+        <li>If you need to spend and receive bitcoin often you can skip this step and instead set a strong password, enable automatic updates, and encrypt your hard drive. This is not recommended as is not as secure.</li>
+        <li>If you need to receive, but you do net need to send, you can complete this step to erase your Secondary laptop only and set a strong password, enable automatic updates and encrypt the hard drive of your Primary laptop. This is not recommended as it weakens privacy, but this does leave you with a "watch-only" node that can be used to see changes to your balance and make deposits to your Yeti wallet.</li>  
         <li>Power off your <b>Secondary laptop</b>.</li>
         <li>Insert the usb drive you used to install Ubuntu.</li>
         <li>Boot up your laptop and click <b>Try Ubuntu</b>.</li>
