@@ -140,8 +140,9 @@
       </div> 
       <div class="card my-5" style="width: 50%;">
         <div class="card-body">
-          <h3>Step 16: Sign the PSBT</h3> 
-          <p class="card-text">Click <b>Sign Tx</b>.</p>
+          <h3>Step 16: Verify and Sign the PSBT</h3> 
+          <p class="card-text">Verify that address (outlined in orange), the amount (Outlined in green), and the transaction fee (outlined in yellow) are all the correct values before clicking <b>Sign Tx</b>.</p>
+          <p class="card-text">It is important to verify the values stated above as this is a very common attack to change one or two characters of the address.</p>
         </div>
         <img class="card-img-top" src="@/assets/Send12.png" alt="Card image cap">
       </div> 
