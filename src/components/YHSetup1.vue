@@ -13,7 +13,7 @@
         </ul>
       <input v-on:click="click" class="btn btn-danger" type="submit" id="next" value="Next">
       <p></p>
-      <p style="color:light-gray;"><a href="https://www.youtube.com/watch?v=sjExNFcdVmo">Video walk through</a></p>
+      <p style="color:light-gray;"><a href="https://youtu.be/vNb4UM0Jr7I">Video walk through</a></p>
     </div>
   </div>
 </template>
