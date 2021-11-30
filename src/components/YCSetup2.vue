@@ -8,8 +8,8 @@
             <li>Use the Long Term Support (LTS) Version of Ubuntu. This is currently 20.04 and is at the      top of the download page. Yeti has not been well tested with any other Ubuntu version or Linux distribution.</li>
             <li>Use only trustworthy guides such as this one: <a href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0">Install Ubuntu</a>.</li>
             <li>Be sure to complete step 7. (Optional) Enable Encryption in the Ubuntu installation guide. It is not optional for Yeti.</li>
-            <li>When choosing a security key use a sentence with at least 7 words with special characters instead of spaces. For example "sinter-seance-henchmen-wavy-scruffy-flesh-solo" <b>Do not use this security key</b>.</li>
-            <li>Wright down your security key on paper. You will need to enter it when prompted after each restart of your laptop.</li>
+            <li>When choosing a security key use a sentence with at least 13 words with special characters instead of spaces. For example "songbook-masonry-suddenly-glottal-upbraid-period-chair-killdeer-mind-parisian-denote-forborne" <b>Do not use this security key</b>.</li>
+            <li>Write down your security key on paper. You will need to enter it when prompted after each restart of your laptop.</li>
             <li>Use the USB drive you labeled "Ubuntu" to create a Bootable Ubuntu drive.</li>
             <li>Select <b>Try Ubuntu</b>, and then use the <b>Disk Utility</b> to delete and erase all existing partitions.</li>
             <li>Create a new partition consisting of the entire device, and then install Ubuntu on that new partition.</li>
