@@ -5,7 +5,7 @@
       <h2>Step 2: Install Ubuntu and Label Laptops</h2>
       <p>Install Ubuntu on both laptops following these rules.</p>
         <ul>
-            <li>Use the Long Term Support (LTS) Version of Ubuntu. This is currently 22.04 and is at the      top of the download page. Yeti has not been well tested with any other Ubuntu version or Linux distribution.</li>
+            <li>Use the Long Term Support (LTS) Version of Ubuntu. This is currently 24.04 and is at the      top of the download page. Yeti has not been well tested with any other Ubuntu version or Linux distribution.</li>
             <li>Use only trustworthy guides such as this one: <a href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0">Install Ubuntu</a>.</li>
             <li>Be sure to complete step 7. (Optional) Enable Encryption in the Ubuntu installation guide. It is not optional for Yeti.</li>
             <li>When choosing a security key use a sentence with at least 13 words with special characters instead of spaces. For example "songbook-masonry-suddenly-glottal-upbraid-period-chair-killdeer-mind-parisian-denote-forborne" <b>Do not use this security key</b>.</li>
