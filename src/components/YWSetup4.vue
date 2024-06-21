@@ -7,7 +7,7 @@
         <li>On your laptop click on the <b>9 Dots</b> in the bottom left corner of your Ubuntu desktop and then click <b>Terminal</b>.</li>
         <li>Click <b>Copy</b> to copy the text below this line.</li>
         <div style="width:75%;" class="input-group mb-3 mt-3">
-        <input v-on:click="copy1" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy1" aria-describedby="inputGroup-sizing-default" value="python3 -m venv ~/my_env && source ~/my_env/bin/activate && sudo apt-get update; yes | sudo apt-get install git; git clone https://github.com/jwweatherman/yeticold.git ~/yeticold; python3 ~/yeticold/initialize.py YetiLevelTwo">
+        <input v-on:click="copy1" v-b-tooltip.click v-b-tooltip.blur title="Copied" readonly type="text" class="form-control" aria-label="Default" id="copy1" aria-describedby="inputGroup-sizing-default" value="sudo apt update && sudo apt-get upgrade -y && sudo apt-get install python3.10 && sudo apt-get install -y python3-pip python3.10-venv git && python3 -m venv ~/my_venv && source ~/my_venv/bin/activate && git clone https://github.com/jwweatherman/yeticold.git ~/yeticold; pip install flask; pip install bip32; python3 ~/yeticold/initialize.py YetiLevelTwo">
           <div class="input-group-append">
             <span v-on:click="copy1" class="btn btn-secondary" id="basic-addon2">Copy</span>
           </div>
