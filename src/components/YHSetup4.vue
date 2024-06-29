@@ -41,10 +41,6 @@ export default {
         document.execCommand("copy");
       }
     },
-    click() {
-      // Replace with your next step logic
-      console.log("Clicked Next");
-    }
   }
 };
 </script>
