@@ -29,7 +29,7 @@ export default {
   },
   data() {
     return {
-      command: `sudo apt update && sudo apt-get upgrade -y && { grep -q "^VERSION=\"24.04\" /etc/os-release && sudo apt-add-repository -y ppa:deadsnakes/ppa || true; } && sudo apt-get install -y python3.10 && sudo apt-get install -y python3.10-venv git && python3.10 -m venv ~/my_venv && source ~/my_venv/bin/activate && python -m ensurepip --upgrade && git clone https://github.com/jwweatherman/yeticold.git ~/yeticold; pip install flask; pip install bip32; python3 ~/yeticold/initialize.py YetiLevelOne`
+      command: `sudo apt update && sudo apt-get upgrade -y && { grep -q "^VERSION=\"24.04" /etc/os-release && sudo apt-add-repository -y ppa:deadsnakes/ppa || true; } && sudo apt-get install -y python3.10 && sudo apt-get install -y python3.10-venv git && python3.10 -m venv ~/my_venv && source ~/my_venv/bin/activate && python -m ensurepip --upgrade && git clone https://github.com/jwweatherman/yeticold.git ~/yeticold; pip install flask; pip install bip32; python3 ~/yeticold/initialize.py YetiLevelOne`
     };
   },
   methods: {
